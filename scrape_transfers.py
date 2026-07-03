@@ -1,29 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Auto-updater trasferimenti/prestiti REALI per MANAGER26 (versione con DIAGNOSTICA).
-Genera  data/market_updates.json  che il gioco legge da solo.
+MANAGER26 - Sincronizzazione ROSE REALI (con diagnostica).
 
-IMPORTANTISSIMO sulla chiave:
-- Deve essere la chiave del sito DIRETTO  https://dashboard.api-football.com/ (api-sports.io),
-  NON quella di RapidAPI. Con RapidAPI l'host e gli header sono diversi e non funziona.
-- Mettila come secret GitHub:  APISPORTS_KEY
+Cosa fa: controlla le ROSE ATTUALI reali di ogni squadra (endpoint /players/squads)
+e scrive  data/market_updates.json  con { player, to } per OGNI giocatore.
+Il gioco, leggendolo, sposta ogni giocatore nella sua squadra reale -> corregge da
+solo le differenze (compresi i vecchi prestiti "finti"). E' idempotente.
 
-Lo script stampa nel log dell'Action: stato del piano, errori API, quante squadre e
-quanti trasferimenti trova. Se qualcosa non va, il log te lo dice.
+CHIAVE (fondamentale):
+- Deve essere la chiave del sito DIRETTO  https://dashboard.api-football.com/  (api-sports.io).
+- NON la chiave di RapidAPI (con RapidAPI host/headers sono diversi e l'API risponde
+  'Missing application key', come nel tuo log).
+- Mettila nel secret GitHub  APISPORTS_KEY.
+
+Il log stampa /status (piano) ed errori: se vedi ancora 'Missing application key',
+la chiave e' quella sbagliata.
 """
 import os, json, time, datetime, urllib.request, urllib.parse, urllib.error
 
 KEY = os.environ.get("APISPORTS_KEY", "").strip()
 BASE = "https://v3.football.api-sports.io"
 today = datetime.date.today()
-# stagione calcistica: da luglio in poi = anno corrente, altrimenti anno-1
 SEASON = int(os.environ.get("SEASON", str(today.year if today.month >= 7 else today.year - 1)))
 LEAGUES = [int(x) for x in os.environ.get("LEAGUES", "135,39,140,78,61").split(",") if x.strip()]
-DAYS_BACK = int(os.environ.get("DAYS_BACK", "60"))
-MAX_CALLS = int(os.environ.get("MAX_CALLS", "95"))
+MAX_CALLS = int(os.environ.get("MAX_CALLS", "95"))  # piano free = 100/giorno
 
-NAME_MAP = {
+# nomi squadra API -> nomi usati nel database del gioco (aggiungine se non combaciano)
+TEAM_MAP = {
   "Paris Saint Germain": "Paris SG", "Manchester United": "Manchester Utd",
   "Internazionale": "Inter", "Atletico Madrid": "Atl\u00e9tico Madrid",
   "Barcelona": "FC Barcelona", "Bayern M\u00fcnchen": "Bayern Munich",
@@ -33,7 +37,7 @@ _calls = 0
 def api(path, **params):
     global _calls
     if _calls >= MAX_CALLS:
-        print("  (stop: raggiunto MAX_CALLS)"); return {}, 0
+        return {}, 0
     _calls += 1
     url = BASE + path + (("?" + urllib.parse.urlencode(params)) if params else "")
     req = urllib.request.Request(url, headers={"x-apisports-key": KEY, "Accept": "application/json"})
@@ -41,16 +45,16 @@ def api(path, **params):
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.loads(r.read().decode("utf-8")), r.status
     except urllib.error.HTTPError as e:
-        body = ""
-        try: body = e.read().decode("utf-8")
+        b = ""
+        try: b = e.read().decode("utf-8")[:300]
         except Exception: pass
-        return {"_http": e.code, "_body": body[:300]}, e.code
+        return {"_http": e.code, "_body": b}, e.code
     except Exception as e:
         return {"_err": str(e)}, 0
 
-def mapname(n):
+def tmap(n):
     n = (n or "").strip()
-    return NAME_MAP.get(n, n)
+    return TEAM_MAP.get(n, n)
 
 def write(moves):
     os.makedirs("data", exist_ok=True)
@@ -58,77 +62,62 @@ def write(moves):
         json.dump(moves, f, ensure_ascii=False, indent=1)
 
 def main():
-    print("=== MANAGER26 transfer updater ===")
-    print("Data:", today, "| Stagione usata:", SEASON, "| Leghe:", LEAGUES, "| Giorni indietro:", DAYS_BACK)
+    print("=== MANAGER26 sync rose reali ===")
+    print("Data:", today, "| Stagione:", SEASON, "| Leghe:", LEAGUES)
     print("APISPORTS_KEY presente:", bool(KEY), "| lunghezza:", len(KEY))
     if not KEY:
-        print("ERRORE: manca la chiave APISPORTS_KEY (secret GitHub). Scrivo file vuoto.")
-        write([]); return
+        print("ERRORE: manca APISPORTS_KEY. Scrivo file vuoto."); write([]); return
 
     st, code = api("/status")
-    print("/status HTTP:", code)
-    print("/status risposta:", json.dumps(st.get("response", st), ensure_ascii=False)[:600])
+    print("/status HTTP:", code, "| risposta:", json.dumps(st.get("response", st), ensure_ascii=False)[:500])
     if st.get("errors"):
-        print("ATTENZIONE /status errors:", st["errors"])
-        print(">>> Se qui vedi un errore di 'token'/'plan', la chiave e' sbagliata (forse di RapidAPI) o il piano non copre questi dati.")
+        print("ERRORE /status:", st["errors"])
+        print(">>> Se dice 'Missing application key' o 'token': la chiave e' sbagliata (probabilmente RapidAPI).")
+        print(">>> Prendi la chiave da https://dashboard.api-football.com/ (My Access) e rimettila nel secret.")
+        write([]); return
 
-    cutoff = today - datetime.timedelta(days=DAYS_BACK)
-    seen = set(); moves = []; tot_teams = 0; tot_tr = 0
-
-    def gather(season):
-        nonlocal tot_teams, tot_tr
-        found_any = False
+    def teams(season):
+        out = []
         for lg in LEAGUES:
             if _calls >= MAX_CALLS: break
-            data, c = api("/teams", league=lg, season=season)
-            resp = data.get("response") or []
-            if data.get("errors"): print("  /teams league", lg, "errors:", data["errors"])
-            print("  Lega", lg, "stagione", season, "-> squadre trovate:", len(resp))
-            if resp: found_any = True
-            for t in resp:
-                if _calls >= MAX_CALLS: break
-                tid = (t.get("team") or {}).get("id")
-                if not tid: continue
-                tot_teams += 1
-                tr, c2 = api("/transfers", team=tid)
-                rows = tr.get("response") or []
-                for row in rows:
-                    pname = (row.get("player") or {}).get("name")
-                    for mv in (row.get("transfers") or []):
-                        tot_tr += 1
-                        d = mv.get("date") or ""
-                        try: dd = datetime.date.fromisoformat(d)
-                        except Exception: continue
-                        if dd < cutoff: continue
-                        tin = ((mv.get("teams") or {}).get("in") or {}).get("name")
-                        tout = ((mv.get("teams") or {}).get("out") or {}).get("name")
-                        if not pname or not tin: continue
-                        typ = (mv.get("type") or "").lower()
-                        is_loan = ("loan" in typ) or ("prest" in typ)
-                        fee = 0.0
-                        for tok in typ.replace("\u20ac", " ").replace("m", " ").split():
-                            try: fee = float(tok.replace(",", ".")); break
-                            except Exception: pass
-                        key = (pname, tin, d)
-                        if key in seen: continue
-                        seen.add(key)
-                        moves.append({"player": pname, "to": mapname(tin), "from": mapname(tout or ""),
-                                      "loan": is_loan, "fee": round(fee, 1), "date": d})
-                time.sleep(0.15)
-        return found_any
+            d, c = api("/teams", league=lg, season=season)
+            r = d.get("response") or []
+            if d.get("errors"): print("  /teams", lg, "errors:", d["errors"])
+            print("  Lega", lg, "stagione", season, "-> squadre:", len(r))
+            for t in r:
+                tm = t.get("team") or {}
+                if tm.get("id"): out.append((tm["id"], tm.get("name")))
+        return out
 
-    ok = gather(SEASON)
-    if not ok and _calls < MAX_CALLS:
-        print("Nessuna squadra per la stagione", SEASON, "- riprovo con", SEASON - 1)
-        gather(SEASON - 1)
+    tlist = teams(SEASON)
+    if not tlist and _calls < MAX_CALLS:
+        print("Nessuna squadra per", SEASON, "- riprovo", SEASON - 1)
+        tlist = teams(SEASON - 1)
 
-    print("RIEPILOGO -> squadre lette:", tot_teams, "| transfer grezzi:", tot_tr,
-          "| mosse recenti (ultimi", DAYS_BACK, "gg):", len(moves), "| chiamate API:", _calls)
+    moves = []; seen = set(); nteams = 0
+    for tid, tname in tlist:
+        if _calls >= MAX_CALLS:
+            print("  (limite richieste giornaliere raggiunto: sincronizzate", nteams, "squadre)"); break
+        d, c = api("/players/squads", team=tid)
+        r = d.get("response") or []
+        if not r: continue
+        nteams += 1
+        squad = (r[0].get("players") or [])
+        club = tmap(tname)
+        for pl in squad:
+            nm = (pl.get("name") or "").strip()
+            if not nm: continue
+            key = nm + "->" + club
+            if key in seen: continue
+            seen.add(key)
+            moves.append({"player": nm, "to": club})
+        time.sleep(0.12)
+
+    print("RIEPILOGO -> squadre sincronizzate:", nteams, "| giocatori:", len(moves), "| chiamate API:", _calls)
     if not moves:
-        print(">>> Nessuna mossa recente trovata. Possibili cause: piano API senza dati sulla stagione,")
-        print(">>> nessun trasferimento negli ultimi", DAYS_BACK, "giorni, o chiave non valida (vedi /status sopra).")
+        print(">>> Vuoto: controlla il messaggio /status qui sopra (quasi sempre e' la chiave).")
     write(moves)
-    print("Scritto data/market_updates.json con", len(moves), "mosse.")
+    print("Scritto data/market_updates.json con", len(moves), "voci.")
 
 if __name__ == "__main__":
     main()
