@@ -5490,7 +5490,7 @@ window.__GK={"230621":[90,83,70,87,90,90],"212831":[86,85,86,90,89,86],"192119":
   function clubLogo(name){ try{ if(typeof EADB!=='undefined'&&EADB[name]&&typeof getLogo==='function') return getLogo(EADB[name].tid); }catch(e){} return ''; }
 
   /* ---------- assign realistic loans once at career start ---------- */
-  function fmInitLoans(){
+  function fmInitLoans(){ return; /* prestiti sintetici disattivati: solo dati reali dal feed */
     if(S._loansInit) return; if(typeof EADB==='undefined') return;
     var sq=(S.draft&&S.draft.xi?S.draft.xi:[]).filter(Boolean).concat(S.bench||[]);
     if(!sq.length) return;
