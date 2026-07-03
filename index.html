@@ -5564,34 +5564,48 @@ window.__GK={"230621":[90,83,70,87,90,90],"212831":[86,85,86,90,89,86],"192119":
 
 </script>
 <script id="fm-oh5">
-/* ============ FM OVERHAUL v6 : REAL transfers/loans auto-update ============
-   Solo trasferimenti REALI. Ogni 10 giorni REALI il gioco ricontrolla il feed
-   'data/market_updates.json' (generato in automatico dall'updater, vedi zip) e
-   applica i nuovi trasferimenti/prestiti al database. Nessun mercato inventato. */
+/* ============ FM OVERHAUL v6 : sync DB da dati REALI (feed) ============
+   Legge data/market_updates.json (generato dallo scraper Transfermarkt) e
+   riconcilia il database del gioco: sposta ogni giocatore nella sua squadra
+   reale. Matching nomi robusto (accenti + "K. Mbappe" <-> "Kylian Mbappe").
+   Nessun mercato inventato: solo dati reali. Idempotente. */
 (function(){
   'use strict';
   var I=window.FMI||function(){return '';};
   var FEED_URL='data/market_updates.json';
   window.FM_FEED_URL=window.FM_FEED_URL||FEED_URL;
-  var applied={}; // per page-load: il DB si ricrea ad ogni load, quindi riapplico il feed
+  var applied={};
+  var idxBuilt=false, exactMap=null, fuzzyMap=null;
 
+  function norm(s){ try{ return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,''); }catch(e){ return String(s||''); } }
+  function keyOf(s){ return norm(s).toLowerCase().replace(/[^a-z ]/g,' ').replace(/\s+/g,' ').trim(); }
   function rOf(l){ return parseInt(String(l).split('|')[2])||60; }
   function clubStr(c){ try{ var rr=EADB[c].r.map(rOf).sort(function(a,b){return b-a;}).slice(0,11); return rr.length?Math.round(rr.reduce(function(a,b){return a+b;},0)/rr.length):(EADB[c].str||70); }catch(e){ return 70; } }
+
+  function buildIdx(){ exactMap={}; fuzzyMap={};
+    try{ for(var c in EADB){ var arr=EADB[c]&&EADB[c].r; if(!arr) continue; for(var i=0;i<arr.length;i++){ var line=arr[i]; var nm=String(line).split('|')[0]; var k=keyOf(nm); if(!k) continue; if(!(k in exactMap)) exactMap[k]={c:c,line:line}; var p=k.split(' '); var fk=(p[0]?p[0].charAt(0):'')+'|'+p[p.length-1]; (fuzzyMap[fk]||(fuzzyMap[fk]=[])).push({c:c,line:line}); } } }catch(e){}
+    idxBuilt=true;
+  }
+  function findPlayer(name){ if(!idxBuilt) buildIdx(); var k=keyOf(name); if(exactMap[k]) return exactMap[k]; var p=k.split(' '); if(p.length<2) return null; var fk=(p[0]?p[0].charAt(0):'')+'|'+p[p.length-1]; var f=fuzzyMap[fk]; if(f&&f.length===1) return f[0]; return null; }
 
   function applyRealMove(m){
     try{
       if(!m||!m.player||!m.to||typeof EADB==='undefined'||!EADB[m.to]) return;
-      var key=m.player+'>'+m.to; if(applied[key]) return;
-      if(EADB[m.to].r.some(function(l){ return String(l).split('|')[0]===m.player; })){ applied[key]=1; return; }
-      var from=null,line=null;
-      for(var c in EADB){ var arr=EADB[c]&&EADB[c].r; if(!arr) continue; var i=arr.findIndex(function(l){ return String(l).split('|')[0]===m.player; }); if(i>=0){ line=arr[i]; arr.splice(i,1); from=c; break; } }
-      if(!line){ if(m.rating){ line=[m.player,(m.roles||'CC'),m.rating,(m.id||'0'),'70,70,70,70,70,70',(m.age||24),(m.nation||'Europe'),m.rating,0].join('|'); } else return; }
+      var ak=keyOf(m.player)+'>'+m.to; if(applied[ak]) return;
+      var loc=findPlayer(m.player); var line=null;
+      if(loc){
+        if(loc.c===m.to){ applied[ak]=1; return; } // gia' nella squadra giusta
+        var idx=EADB[loc.c].r.indexOf(loc.line);
+        if(idx<0){ idx=EADB[loc.c].r.findIndex(function(l){ return keyOf(String(l).split('|')[0])===keyOf(m.player); }); }
+        if(idx>=0) line=EADB[loc.c].r.splice(idx,1)[0];
+      }
+      if(!line){ if(m.rating){ line=[m.player,(m.roles||'CC'),m.rating,(m.id||'0'),'70,70,70,70,70,70',(m.age||24),(m.nation||'Europe'),m.rating,0].join('|'); } else { applied[ak]=1; return; } }
       EADB[m.to].r.push(line);
-      try{ if(from && typeof euroClubData==='function'){ var sc=euroClubData(from); if(sc&&sc.r){ var si=sc.r.findIndex(function(x){return x&&x.name===m.player;}); if(si>=0) sc.r.splice(si,1);} } var bc=(typeof euroClubData==='function')?euroClubData(m.to):null; if(bc&&bc.r&&typeof parseEA==='function') bc.r.push(parseEA(line)); }catch(e){}
-      try{ if(typeof _wClubCache!=='undefined'&&_wClubCache){ delete _wClubCache[m.to]; if(from) delete _wClubCache[from]; } }catch(e){}
-      if(from) EADB[from].str=clubStr(from); EADB[m.to].str=clubStr(m.to);
-      applied[key]=1;
-      if(!S.transferNews) S.transferNews=[]; S.transferNews.unshift({p:m.player,from:(from||'-'),to:m.to,rate:rOf(line),fee:m.fee||0,loan:!!m.loan,at:S.currentWeek,season:S.season,real:true});
+      try{ var from=loc?loc.c:null; if(from && typeof euroClubData==='function'){ var sc=euroClubData(from); if(sc&&sc.r){ var si=sc.r.findIndex(function(x){ return x && keyOf(x.name)===keyOf(m.player); }); if(si>=0) sc.r.splice(si,1);} } var bc=(typeof euroClubData==='function')?euroClubData(m.to):null; if(bc&&bc.r&&typeof parseEA==='function') bc.r.push(parseEA(line)); }catch(e){}
+      try{ if(typeof _wClubCache!=='undefined'&&_wClubCache){ delete _wClubCache[m.to]; if(loc) delete _wClubCache[loc.c]; } }catch(e){}
+      if(loc) EADB[loc.c].str=clubStr(loc.c); EADB[m.to].str=clubStr(m.to);
+      applied[ak]=1;
+      if(!S.transferNews) S.transferNews=[]; S.transferNews.unshift({p:m.player,from:(loc?loc.c:'-'),to:m.to,rate:rOf(line),fee:m.fee||0,loan:!!m.loan,at:S.currentWeek,season:S.season,real:true});
     }catch(e){}
   }
 
@@ -5600,19 +5614,18 @@ window.__GK={"230621":[90,83,70,87,90,90],"212831":[86,85,86,90,89,86],"192119":
       fetch((window.FM_FEED_URL||FEED_URL)+'?t='+Date.now(),{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(list){
         var arr=Array.isArray(list)?list:((list&&list.moves)||[]);
         var before=(S.transferNews?S.transferNews.length:0);
-        arr.forEach(applyRealMove);
+        for(var i=0;i<arr.length;i++) applyRealMove(arr[i]);
         try{ localStorage.setItem('fmLastFeed', String(Date.now())); }catch(e){}
-        if(S.transferNews && S.transferNews.length>before){ if(typeof toast==='function') toast(I('verified',14)+' Database aggiornato con '+ (S.transferNews.length-before) +' trasferimenti reali'); if(typeof render==='function') render(); }
-        if(cb) cb(true);
-      }).catch(function(){ if(cb) cb(false); });
-    }catch(e){ if(cb) cb(false); }
+        var n=(S.transferNews?S.transferNews.length:0)-before;
+        if(n>0){ if(typeof toast==='function') toast(I('verified',14)+' Database aggiornato: '+n+' trasferimenti reali'); if(typeof render==='function') render(); }
+        if(cb) cb(true,n);
+      }).catch(function(){ if(cb) cb(false,0); });
+    }catch(e){ if(cb) cb(false,0); }
   };
 
   function due(){ try{ var last=+(localStorage.getItem('fmLastFeed')||0); return (Date.now()-last) >= 10*86400000; }catch(e){ return true; } }
-
-  // applica il feed piu' recente ad ogni apertura (idempotente) e ricontrolla ogni 10 giorni reali
   try{ window.fmFetchRealFeed(); }catch(e){}
-  setInterval(function(){ if(due()) { try{ window.fmFetchRealFeed(); }catch(e){} } }, 60*60*1000);
+  setInterval(function(){ if(due()){ try{ window.fmFetchRealFeed(); }catch(e){} } }, 60*60*1000);
 })();
 
 </script>
