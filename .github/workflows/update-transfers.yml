@@ -25,7 +25,7 @@ jobs:
         env:
           # Istanza transfermarkt-api. Se ne ospiti una tua, mettila qui.
           TM_API: 'https://tm-api-thorn.onrender.com'
-          COMPS: 'IT1'
+          COMPS: 'IT1,GB1,ES1,L1,FR1'
           SLEEP: '1.5'
         run: python scrape_transfers.py
 
