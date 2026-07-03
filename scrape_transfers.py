@@ -73,13 +73,11 @@ def write(moves):
 def main():
     print("=== MANAGER26 sync Transfermarkt ===")
     print("TM_API:", TM_API, "| Stagione:", (SEASON or "corrente"), "| Competizioni:", COMPS)
-    ping, code = api("/", tries=2)
-    print("Ping API HTTP:", code)
-    if code != 200:
-        print(">>> L'istanza API non risponde. Se e' la pubblica potrebbe essere giu'/limitata:")
-        print(">>> ospitane una tua su fly.io/render e imposta TM_API nel workflow. Vedi README.txt")
+    # warm-up: Render free si sveglia dal sonno alla prima chiamata
+    _, code = api("/docs", tries=5)
+    print("Health check API (/docs) HTTP:", code, "(se 0/errore si sta svegliando: procedo comunque)")
 
-    moves = []; seen = set(); nclubs = 0
+    moves = []; seen = set(); nclubs = 0; nloans = 0; sampled = False
     for comp in COMPS:
         d, c = api("/competitions/" + comp + "/clubs" + season_qs())
         clubs = (d.get("clubs") if isinstance(d, dict) else None) or []
@@ -94,14 +92,28 @@ def main():
             if not players:
                 print("    club", cname, "-> 0 giocatori (", pc, json.dumps(pd, ensure_ascii=False)[:120], ")"); time.sleep(SLEEP); continue
             nclubs += 1
+            if not sampled and players:
+                print("SAMPLE PLAYER JSON:", json.dumps(players[0], ensure_ascii=False)[:600]); sampled = True
             for pl in players:
                 nm = (pl.get("name") or "").strip()
                 if not nm: continue
                 k = nm + "->" + cname
                 if k in seen: continue
-                seen.add(k); moves.append({"player": nm, "to": cname})
+                seen.add(k)
+                mv = {"player": nm, "to": cname}
+                # rilevamento prestito (euristico su piu' campi + eventuale flag)
+                owner = pl.get("signedFrom") or ""
+                if isinstance(owner, dict): owner = owner.get("name") or ""
+                blob = " ".join(str(pl.get(f) or "") for f in ("status","contract","signedFrom","joinedOn","loan","marketValue")).lower()
+                is_loan = (pl.get("loan") is True) or any(w in blob for w in ("loan","prest","leih","cedido","prêt","emprunt"))
+                if is_loan:
+                    mv["loan"] = True; nloans += 1
+                    if owner: mv["from"] = clean_team(owner)
+                    cend = pl.get("contract") or ""
+                    if cend: mv["until"] = str(cend)
+                moves.append(mv)
             time.sleep(SLEEP)
-    print("RIEPILOGO -> club sincronizzati:", nclubs, "| giocatori:", len(moves))
+    print("RIEPILOGO -> club sincronizzati:", nclubs, "| giocatori:", len(moves), "| prestiti rilevati:", nloans)
     if not moves:
         print(">>> Vuoto: vedi il Ping/le risposte sopra. Se '403 Forbidden' = IP bloccato da Transfermarkt")
         print(">>> (serve un'istanza propria); se '429' = troppo veloce (aumenta SLEEP); se 'giu' = istanza offline.")
