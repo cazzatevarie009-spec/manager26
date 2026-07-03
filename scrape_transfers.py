@@ -30,6 +30,12 @@ TEAM_MAP = {
   "Wolverhampton Wanderers": "Wolves", "Newcastle United": "Newcastle",
 }
 
+def dparse(s):
+    try:
+        return datetime.date.fromisoformat(str(s)[:10])
+    except Exception:
+        return None
+
 def clean_team(n):
     n = (n or "").strip()
     if n in TEAM_MAP: return TEAM_MAP[n]
@@ -77,7 +83,7 @@ def main():
     _, code = api("/docs", tries=5)
     print("Health check API (/docs) HTTP:", code, "(se 0/errore si sta svegliando: procedo comunque)")
 
-    moves = []; seen = set(); nclubs = 0; nloans = 0; sampled = False
+    moves = []; seen = set(); nclubs = 0; nloans = 0; sampled = False; loan_examples = []
     for comp in COMPS:
         d, c = api("/competitions/" + comp + "/clubs" + season_qs())
         clubs = (d.get("clubs") if isinstance(d, dict) else None) or []
@@ -101,19 +107,30 @@ def main():
                 if k in seen: continue
                 seen.add(k)
                 mv = {"player": nm, "to": cname}
-                # rilevamento prestito (euristico su piu' campi + eventuale flag)
+                # rilevamento PRESTITO: l'API non ha un campo apposta, quindi usiamo la durata.
+                # Un prestito ha 'contract' (fine) entro ~1 anno da 'joinedOn' (arrivo).
                 owner = pl.get("signedFrom") or ""
                 if isinstance(owner, dict): owner = owner.get("name") or ""
-                blob = " ".join(str(pl.get(f) or "") for f in ("status","contract","signedFrom","joinedOn","loan","marketValue")).lower()
-                is_loan = (pl.get("loan") is True) or any(w in blob for w in ("loan","prest","leih","cedido","prêt","emprunt"))
+                jo = dparse(pl.get("joinedOn")); ce = dparse(pl.get("contract"))
+                is_loan = False
+                if owner and jo and ce:
+                    days = (ce - jo).days
+                    if 0 < days <= 400:
+                        is_loan = True
+                if not is_loan:
+                    blob = " ".join(str(pl.get(f) or "") for f in ("status","signedFrom")).lower()
+                    if any(w in blob for w in ("loan","prest","leih","cedido")):
+                        is_loan = True
                 if is_loan:
                     mv["loan"] = True; nloans += 1
                     if owner: mv["from"] = clean_team(owner)
-                    cend = pl.get("contract") or ""
-                    if cend: mv["until"] = str(cend)
+                    if pl.get("contract"): mv["until"] = str(pl.get("contract"))
+                    if len(loan_examples) < 12:
+                        loan_examples.append(nm + " (da " + str(owner) + ", fino " + str(pl.get("contract")) + ")")
                 moves.append(mv)
             time.sleep(SLEEP)
     print("RIEPILOGO -> club sincronizzati:", nclubs, "| giocatori:", len(moves), "| prestiti rilevati:", nloans)
+    for ex in loan_examples: print("   prestito:", ex)
     if not moves:
         print(">>> Vuoto: vedi il Ping/le risposte sopra. Se '403 Forbidden' = IP bloccato da Transfermarkt")
         print(">>> (serve un'istanza propria); se '429' = troppo veloce (aumenta SLEEP); se 'giu' = istanza offline.")
