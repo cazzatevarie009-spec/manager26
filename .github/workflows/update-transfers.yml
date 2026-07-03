@@ -1,0 +1,38 @@
+# Copia in:  .github/workflows/update-transfers.yml
+# Ogni 10 giorni genera data/market_updates.json con le rose reali e fa commit.
+# NON scarica da GitHub (Transfermarkt blocca gli IP di GitHub con 403):
+# usa un'istanza gia' ospitata di transfermarkt-api (default: quella pubblica).
+name: Aggiorna rose reali (Transfermarkt)
+
+on:
+  schedule:
+    - cron: '0 4 */10 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Genera feed rose reali
+        env:
+          # Istanza transfermarkt-api. Se ne ospiti una tua, mettila qui.
+          TM_API: 'https://transfermarkt-api.fly.dev'
+          COMPS: 'IT1,GB1,ES1,L1,FR1'
+          SLEEP: '1.5'
+        run: python scrape_transfers.py
+
+      - name: Commit del feed aggiornato
+        run: |
+          git config user.name "transfer-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/market_updates.json
+          git commit -m "Aggiornamento rose reali (Transfermarkt)" || echo "nessuna modifica"
+          git push
