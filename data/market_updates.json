@@ -1,1 +1,2582 @@
-[]
+[
+ {
+  "player": "Josep Martínez",
+  "to": "Inter"
+ },
+ {
+  "player": "Raffaele Di Gennaro",
+  "to": "Inter"
+ },
+ {
+  "player": "Alessandro Bastoni",
+  "to": "Inter"
+ },
+ {
+  "player": "Yann Bisseck",
+  "to": "Inter"
+ },
+ {
+  "player": "Manuel Akanji",
+  "to": "Inter"
+ },
+ {
+  "player": "Benjamin Pavard",
+  "to": "Inter"
+ },
+ {
+  "player": "Federico Dimarco",
+  "to": "Inter"
+ },
+ {
+  "player": "Carlos Augusto",
+  "to": "Inter"
+ },
+ {
+  "player": "Denzel Dumfries",
+  "to": "Inter"
+ },
+ {
+  "player": "Aleksandar Stanković",
+  "to": "Inter"
+ },
+ {
+  "player": "Hakan Çalhanoğlu",
+  "to": "Inter"
+ },
+ {
+  "player": "Kristjan Asllani",
+  "to": "Inter"
+ },
+ {
+  "player": "Nicolò Barella",
+  "to": "Inter"
+ },
+ {
+  "player": "Petar Sučić",
+  "to": "Inter"
+ },
+ {
+  "player": "Davide Frattesi",
+  "to": "Inter"
+ },
+ {
+  "player": "Andy Diouf",
+  "to": "Inter"
+ },
+ {
+  "player": "Piotr Zielinski",
+  "to": "Inter"
+ },
+ {
+  "player": "Ebenezer Akinsanmiro",
+  "to": "Inter"
+ },
+ {
+  "player": "Henrikh Mkhitaryan",
+  "to": "Inter"
+ },
+ {
+  "player": "Luis Henrique",
+  "to": "Inter"
+ },
+ {
+  "player": "Yanis Massolin",
+  "to": "Inter"
+ },
+ {
+  "player": "Lautaro Martínez",
+  "to": "Inter"
+ },
+ {
+  "player": "Marcus Thuram",
+  "to": "Inter"
+ },
+ {
+  "player": "Pio Esposito",
+  "to": "Inter"
+ },
+ {
+  "player": "Ange-Yoan Bonny",
+  "to": "Inter"
+ },
+ {
+  "player": "Mike Maignan",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Pietro Terracciano",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Lorenzo Torriani",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Strahinja Pavlović",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Koni De Winter",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Fikayo Tomori",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Matteo Gabbia",
+  "to": "AC Milan"
+ },
+ {
+  "player": "David Odogu",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Filippo Terracciano",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Davide Bartesaghi",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Pervis Estupiñán",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Zachary Athekame",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Ardon Jashari",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Youssouf Fofana",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Samuele Ricci",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Ismaël Bennacer",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Adrien Rabiot",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Yunus Musah",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Ruben Loftus-Cheek",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Warren Bondo",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Christian Comotto",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Kevin Zeroli",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Alexis Saelemaekers",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Alphadjo Cissè",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Rafael Leão",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Christian Pulisic",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Samuel Chukwueze",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Gonçalo Ramos",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Christopher Nkunku",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Santiago Gimenez",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Francesco Camarda",
+  "to": "AC Milan"
+ },
+ {
+  "player": "Michele Di Gregorio",
+  "to": "Juventus"
+ },
+ {
+  "player": "Mattia Perin",
+  "to": "Juventus"
+ },
+ {
+  "player": "Carlo Pinsoglio",
+  "to": "Juventus"
+ },
+ {
+  "player": "Bremer",
+  "to": "Juventus"
+ },
+ {
+  "player": "Pierre Kalulu",
+  "to": "Juventus"
+ },
+ {
+  "player": "Lloyd Kelly",
+  "to": "Juventus"
+ },
+ {
+  "player": "Federico Gatti",
+  "to": "Juventus"
+ },
+ {
+  "player": "Daniele Rugani",
+  "to": "Juventus"
+ },
+ {
+  "player": "Andrea Cambiaso",
+  "to": "Juventus"
+ },
+ {
+  "player": "Juan Cabal",
+  "to": "Juventus"
+ },
+ {
+  "player": "Jonas Rouhi",
+  "to": "Juventus"
+ },
+ {
+  "player": "João Mário",
+  "to": "Juventus"
+ },
+ {
+  "player": "Manuel Locatelli",
+  "to": "Juventus"
+ },
+ {
+  "player": "Teun Koopmeiners",
+  "to": "Juventus"
+ },
+ {
+  "player": "Khéphren Thuram",
+  "to": "Juventus"
+ },
+ {
+  "player": "Weston McKennie",
+  "to": "Juventus"
+ },
+ {
+  "player": "Douglas Luiz",
+  "to": "Juventus"
+ },
+ {
+  "player": "Fabio Miretti",
+  "to": "Juventus"
+ },
+ {
+  "player": "Arthur Melo",
+  "to": "Juventus"
+ },
+ {
+  "player": "Vasilije Adžić",
+  "to": "Juventus"
+ },
+ {
+  "player": "Kenan Yıldız",
+  "to": "Juventus"
+ },
+ {
+  "player": "Nico González",
+  "to": "Juventus"
+ },
+ {
+  "player": "Jérémie Boga",
+  "to": "Juventus"
+ },
+ {
+  "player": "Francisco Conceição",
+  "to": "Juventus"
+ },
+ {
+  "player": "Edon Zhegrova",
+  "to": "Juventus"
+ },
+ {
+  "player": "Jonathan David",
+  "to": "Juventus"
+ },
+ {
+  "player": "Loïs Openda",
+  "to": "Juventus"
+ },
+ {
+  "player": "Jeff Ekhator",
+  "to": "Juventus"
+ },
+ {
+  "player": "Arkadiusz Milik",
+  "to": "Juventus"
+ },
+ {
+  "player": "Vanja Milinković-Savić",
+  "to": "Napoli"
+ },
+ {
+  "player": "Alex Meret",
+  "to": "Napoli"
+ },
+ {
+  "player": "Nikita Contini",
+  "to": "Napoli"
+ },
+ {
+  "player": "Mathias Ferrante",
+  "to": "Napoli"
+ },
+ {
+  "player": "Alessandro Buongiorno",
+  "to": "Napoli"
+ },
+ {
+  "player": "Sam Beukema",
+  "to": "Napoli"
+ },
+ {
+  "player": "Rafa Marín",
+  "to": "Napoli"
+ },
+ {
+  "player": "Amir Rrahmani",
+  "to": "Napoli"
+ },
+ {
+  "player": "Luca Marianucci",
+  "to": "Napoli"
+ },
+ {
+  "player": "Nosa Edward Obaretin",
+  "to": "Napoli"
+ },
+ {
+  "player": "Luigi D'Avino",
+  "to": "Napoli"
+ },
+ {
+  "player": "Miguel Gutiérrez",
+  "to": "Napoli"
+ },
+ {
+  "player": "Mathías Olivera",
+  "to": "Napoli"
+ },
+ {
+  "player": "Leonardo Spinazzola",
+  "to": "Napoli"
+ },
+ {
+  "player": "Giovanni Di Lorenzo",
+  "to": "Napoli"
+ },
+ {
+  "player": "Pasquale Mazzocchi",
+  "to": "Napoli"
+ },
+ {
+  "player": "Billy Gilmour",
+  "to": "Napoli"
+ },
+ {
+  "player": "Stanislav Lobotka",
+  "to": "Napoli"
+ },
+ {
+  "player": "Jens Cajuste",
+  "to": "Napoli"
+ },
+ {
+  "player": "Scott McTominay",
+  "to": "Napoli"
+ },
+ {
+  "player": "Frank Anguissa",
+  "to": "Napoli"
+ },
+ {
+  "player": "Michael Folorunsho",
+  "to": "Napoli"
+ },
+ {
+  "player": "Luis Hasa",
+  "to": "Napoli"
+ },
+ {
+  "player": "Coli Saco",
+  "to": "Napoli"
+ },
+ {
+  "player": "Alessio Zerbin",
+  "to": "Napoli"
+ },
+ {
+  "player": "Antonio Vergara",
+  "to": "Napoli"
+ },
+ {
+  "player": "Kevin De Bruyne",
+  "to": "Napoli"
+ },
+ {
+  "player": "Alisson Santos",
+  "to": "Napoli"
+ },
+ {
+  "player": "Noa Lang",
+  "to": "Napoli"
+ },
+ {
+  "player": "Emanuele Rao",
+  "to": "Napoli"
+ },
+ {
+  "player": "David Neres",
+  "to": "Napoli"
+ },
+ {
+  "player": "Cyril Ngonge",
+  "to": "Napoli"
+ },
+ {
+  "player": "Matteo Politano",
+  "to": "Napoli"
+ },
+ {
+  "player": "Jesper Lindstrøm",
+  "to": "Napoli"
+ },
+ {
+  "player": "Lorenzo Sgarbi",
+  "to": "Napoli"
+ },
+ {
+  "player": "Rasmus Højlund",
+  "to": "Napoli"
+ },
+ {
+  "player": "Lorenzo Lucca",
+  "to": "Napoli"
+ },
+ {
+  "player": "Giovane",
+  "to": "Napoli"
+ },
+ {
+  "player": "Romelu Lukaku",
+  "to": "Napoli"
+ },
+ {
+  "player": "Giuseppe Ambrosino",
+  "to": "Napoli"
+ },
+ {
+  "player": "Walid Cheddira",
+  "to": "Napoli"
+ },
+ {
+  "player": "Jean Butez",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Emil Audero",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Noel Törnqvist",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Jacobo Ramón",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Stefan Posch",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Alberto Dossena",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Marc Oliver Kempf",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Fellipe Jack",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Tommaso Cassandro",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Edoardo Goldaniga",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Andrés Cuenca",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Kaiki",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Álex Valle",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Ivan Smolcic",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Ignace Van der Brempt",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Mërgim Vojvoda",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Máximo Perrone",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Yannik Engelhardt",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Andréa Le Borgne",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Lucas Da Cunha",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Maxence Caqueret",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Adrian Lahdo",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Fabio Rispoli",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Luis Milla",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Luca Mazzitelli",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Matthias Braunöder",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Nico Paz",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Martin Baturina",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Jesús Rodríguez",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Assane Diao",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Alieu Fadera",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Ali Jasim",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Jayden Addai",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Nicolas Kühn",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Federico Chinetti",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Anastasios Douvikas",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Álvaro Morata",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Iván Azón",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Alessandro Gabrielloni",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Marlon Mustapha",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Tommaso Fumagalli",
+  "to": "Como 1907"
+ },
+ {
+  "player": "Marco Carnesecchi",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Marco Sportiello",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Francesco Rossi",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Giorgio Scalvini",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Honest Ahanor",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Isak Hien",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Odilon Kossounou",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Berat Djimsiti",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Sead Kolasinac",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Giovanni Bonfanti",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Ibrahim Sulemana",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Marten de Roon",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Éderson",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Mario Pašalić",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Raoul Bellanova",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Davide Zappacosta",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Lorenzo Bernasconi",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Nicola Zalewski",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Mitchel Bakker",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Charles De Ketelaere",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Lazar Samardžić",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Daniel Maldini",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Kamaldeen Sulemana",
+  "to": "Atalanta"
+ },
+ {
+  "player": "El Bilal Touré",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Giacomo Raspadori",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Nikola Krstović",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Gianluca Scamacca",
+  "to": "Atalanta"
+ },
+ {
+  "player": "Mile Svilar",
+  "to": "Roma"
+ },
+ {
+  "player": "Devis Vásquez",
+  "to": "Roma"
+ },
+ {
+  "player": "Pierluigi Gollini",
+  "to": "Roma"
+ },
+ {
+  "player": "Radoslaw Zelezny",
+  "to": "Roma"
+ },
+ {
+  "player": "Evan Ndicka",
+  "to": "Roma"
+ },
+ {
+  "player": "Daniele Ghilardi",
+  "to": "Roma"
+ },
+ {
+  "player": "Gianluca Mancini",
+  "to": "Roma"
+ },
+ {
+  "player": "Jan Ziolkowski",
+  "to": "Roma"
+ },
+ {
+  "player": "Mario Hermoso",
+  "to": "Roma"
+ },
+ {
+  "player": "Marash Kumbulla",
+  "to": "Roma"
+ },
+ {
+  "player": "Filippo Reale",
+  "to": "Roma"
+ },
+ {
+  "player": "Anass Salah-Eddine",
+  "to": "Roma"
+ },
+ {
+  "player": "Angeliño",
+  "to": "Roma"
+ },
+ {
+  "player": "Wesley",
+  "to": "Roma"
+ },
+ {
+  "player": "Devyne Rensch",
+  "to": "Roma"
+ },
+ {
+  "player": "Mattia Mannini",
+  "to": "Roma"
+ },
+ {
+  "player": "Bryan Cristante",
+  "to": "Roma"
+ },
+ {
+  "player": "Manu Koné",
+  "to": "Roma"
+ },
+ {
+  "player": "Niccolò Pisilli",
+  "to": "Roma"
+ },
+ {
+  "player": "Neil El Aynaoui",
+  "to": "Roma"
+ },
+ {
+  "player": "Riccardo Pagano",
+  "to": "Roma"
+ },
+ {
+  "player": "Luigi Cherubini",
+  "to": "Roma"
+ },
+ {
+  "player": "Matías Soulé",
+  "to": "Roma"
+ },
+ {
+  "player": "Donyell Malen",
+  "to": "Roma"
+ },
+ {
+  "player": "Robinio Vaz",
+  "to": "Roma"
+ },
+ {
+  "player": "Artem Dovbyk",
+  "to": "Roma"
+ },
+ {
+  "player": "Tommaso Martinelli",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "David de Gea",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Oliver Christensen",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Tommaso Vannucchi",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Luca Lezzerini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Pietro Comuzzo",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Marin Pongracic",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Viery",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Matías Moreno",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Luca Ranieri",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Nicolás Valentini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Eddy Kouadio",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Eman Košpo",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Lorenzo Romani",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Niccolò Fortini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Fabiano Parisi",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Robin Gosens",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Luis Balbo",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Dodô",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Rolando Mandragora",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Lorenzo Amatucci",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Cher Ndour",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Nicolò Fagioli",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Marco Brescianini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Jacopo Fazzini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Simon Sohm",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Alessandro Bianco",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Amir Richardson",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Jonas Harder",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Giovanni Fabbian",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Tommaso Rubino",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Antonín Barák",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Riccardo Sottil",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Maat Daniel Caprini",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Albert Gudmundsson",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Filippo Distefano",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Moise Kean",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Roberto Piccoli",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "M'Bala Nzola",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Riccardo Braschi",
+  "to": "ACF Fiorentina"
+ },
+ {
+  "player": "Massimo Pessina",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Lukasz Skorupski",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Federico Ravaglia",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Jhon Lucumí",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Torbjørn Heggem",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Martin Vitík",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Eivind Helland",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Nicolò Casale",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Mihajlo Ilić",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Wisdom Amey",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Juan Miranda",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Emil Holm",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Nadir Zortea",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Nikola Moro",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Oussama El Azzouzi",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Lewis Ferguson",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Tommaso Pobega",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Niklas Pyyhtiä",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Jens Odgaard",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Jonathan Rowe",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Nicolò Cambiaghi",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Benja Domínguez",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Jesper Karlsson",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Riccardo Orsolini",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Federico Bernardeschi",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Santiago Castro",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Thijs Dallinga",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Antonio Raimondo",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Luigi Caccavo",
+  "to": "Bologna FC 1909"
+ },
+ {
+  "player": "Christos Mandas",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Edoardo Motta",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Ivan Provedel",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Alessio Furlanetto",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Davide Renzetti",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Mario Gila",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Oliver Provstgaard",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Alessio Romagnoli",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Patric",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Samuel Gigot",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Filipe Bordon",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Nuno Tavares",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Luca Pellegrini",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Alfonso Pedraza",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Alessandro Milani",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Mohamed Fares",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Romano Floriani Mussolini",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Adam Marusic",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Manuel Lazzari",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Nicolò Rovella",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Reda Belahyane",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Danilo Cataldi",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Kenneth Taylor",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Fisayo Dele-Bashiru",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Adrian Przyborek",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Mattia Zaccagni",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Gustav Isaksen",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Tijjani Noslin",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Matteo Cancellieri",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Petar Ratkov",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Boulaye Dia",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Gabriele Artistico",
+  "to": "SS Lazio"
+ },
+ {
+  "player": "Maduka Okoye",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Edoardo Piana",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Daniele Padelli",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Oumar Solet",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Thomas Kristensen",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Nicolò Bertola",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Matteo Palma",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Branimir Mlacic",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "James Abankwah",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Saba Goglichidze",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Enzo Ebosse",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Christian Kabasele",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Jordan Zemura",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Hassane Kamara",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Leonardo Buta",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Alessandro Zanoli",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Jesper Karlström",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Abdoulaye Camara",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Arthur Atta",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Jurgen Ekkelenkamp",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Lennon Miller",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Martín Payero",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Jakub Piotrowski",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Sandi Lovrić",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Oier Zarraga",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Juan Arizala",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Simone Pafundi",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "David Pejičić",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Rui Modesto",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Nicolò Zaniolo",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Keinan Davis",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Luca Kjerrumgaard",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Idrissa Gueye",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Adam Buksa",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Iker Bravo",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Vakoun Bayo",
+  "to": "Udinese Calcio"
+ },
+ {
+  "player": "Arijanet Murić",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Stefano Turati",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Gioele Zacchi",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Tarik Muharemović",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Jay Idzes",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Fali Candé",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Cas Odenthal",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Josh Doig",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Edoardo Pieragnolo",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Sebastian Walukiewicz",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Filippo Missori",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Yeferson Paz",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Luca Lipani",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Daniel Boloca",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Nemanja Matić",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Andrea Ghion",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Ismaël Koné",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Kristian Thorstvedt",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Justin Kumi",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Edoardo Iannoni",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Kevin Leone",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Fabrizio Caligara",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Simone Cinquegrano",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Cristian Volpato",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Darryl Bakola",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Borna Knezovic",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Kevin Bruno",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Armand Laurienté",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Riccardo Ciervo",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Patrick Nuamah",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Domenico Berardi",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Nicholas Pierini",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Luca D'Andrea",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Andrea Pinamonti",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Samuele Mulattieri",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Agustín Álvarez",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Luca Moro",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Laurs Skjellerup",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Janis Antiste",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Flavio Russo",
+  "to": "US Sassuolo"
+ },
+ {
+  "player": "Zion Suzuki",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Giovanni Daffara",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Edoardo Corvi",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Filippo Rinaldi",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Alessandro Circati",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Mariano Troilo",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Abdoulaye Ndiaye",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Botond Balogh",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Lautaro Valenti",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Nicolas Trabucchi",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Peter Amoran",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Emanuele Valeri",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Franco Carboni",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Sascha Britschgi",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Enrico Delprato",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Mandela Keita",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Hans Nicolussi Caviglia",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Adrián Bernabé",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Oliver Sørensen",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Christian Ordóñez",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Benja Cremaschi",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Rachid Kouda",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Jacob Ondrejka",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Antoine Joujou",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Pontus Almqvist",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Anthony Partipilo",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Mateo Pellegrino",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Matija Frigan",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Adrian Benedyczak",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Nesta Elphege",
+  "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "Justin Bijlow",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Franz Stolz",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Ernestas Lysionok",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Alessandro Marcandalli",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Leo Østigård",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Johan Vásquez",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Gabriele Calvani",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Alan Matturro",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Alessandro Vogliacco",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Sebastian Otoa",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Aarón Martín",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "David Puczka",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Marcelo Vaz",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Brooke Norton-Cuffy",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Stefano Sabelli",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Morten Frendrup",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Amorim",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Mikael Egill Ellertsson",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Franz-Ethan Meichtry",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Patrizio Masini",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Samuel Wiafe",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Tommaso Baldanzi",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Hugo Cuenca",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Lorenzo Venturino",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Seydou Fini",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Junior Messias",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Lorenzo Colombo",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Vitinha",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Alessandro Debenedetti",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "David Ankeye",
+  "to": "Genoa CFC"
+ },
+ {
+  "player": "Elia Caprile",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Alen Sherri",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Boris Radunović",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Velizar-Iliya Iliev",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Giuseppe Ciocci",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Juan Rodríguez",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Zé Pedro",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Yerry Mina",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Mateusz Wieteska",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Davide Veroli",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Nicola Pintus",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Francesco Gallea",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Adam Obert",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Riyad Idrissi",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Gabriele Zappa",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Othniël Raterink",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Gianluca Gaetano",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Matteo Prati",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Alessandro Romano",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Michel Adopo",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Joseph Liteta",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Alessandro Deiola",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Demi Akarakiri",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Nicolò Cavuoti",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Mattia Felici",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Agustín Albarracín",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Alessandro Vinciguerra",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Zito Luvumbo",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Sebastiano Di Paolo",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Sebastiano Esposito",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Paul Mendy",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Kingstone Mutandwa",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Gennaro Borrelli",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Yael Trepy",
+  "to": "Cagliari Calcio"
+ },
+ {
+  "player": "Franco Israel",
+  "to": "Torino"
+ },
+ {
+  "player": "Alberto Paleari",
+  "to": "Torino"
+ },
+ {
+  "player": "Lapo Siviero",
+  "to": "Torino"
+ },
+ {
+  "player": "Saúl Coco",
+  "to": "Torino"
+ },
+ {
+  "player": "Ardian Ismajli",
+  "to": "Torino"
+ },
+ {
+  "player": "Alessandro Dellavalle",
+  "to": "Torino"
+ },
+ {
+  "player": "Cristiano Biraghi",
+  "to": "Torino"
+ },
+ {
+  "player": "Marcus Pedersen",
+  "to": "Torino"
+ },
+ {
+  "player": "Ali Dembélé",
+  "to": "Torino"
+ },
+ {
+  "player": "Cesare Casadei",
+  "to": "Torino"
+ },
+ {
+  "player": "Ivan Ilić",
+  "to": "Torino"
+ },
+ {
+  "player": "Emirhan İlkhan",
+  "to": "Torino"
+ },
+ {
+  "player": "Gvidas Gineitis",
+  "to": "Torino"
+ },
+ {
+  "player": "Tino Anjorin",
+  "to": "Torino"
+ },
+ {
+  "player": "Aaron Ciammaglichella",
+  "to": "Torino"
+ },
+ {
+  "player": "Marco Dalla Vecchia",
+  "to": "Torino"
+ },
+ {
+  "player": "Nikola Vlašić",
+  "to": "Torino"
+ },
+ {
+  "player": "Sergiu Perciun",
+  "to": "Torino"
+ },
+ {
+  "player": "Alessio Cacciamani",
+  "to": "Torino"
+ },
+ {
+  "player": "Alieu Njie",
+  "to": "Torino"
+ },
+ {
+  "player": "Zakaria Aboukhlal",
+  "to": "Torino"
+ },
+ {
+  "player": "Giovanni Simeone",
+  "to": "Torino"
+ },
+ {
+  "player": "Ché Adams",
+  "to": "Torino"
+ },
+ {
+  "player": "Sandro Kulenović",
+  "to": "Torino"
+ },
+ {
+  "player": "Duván Zapata",
+  "to": "Torino"
+ },
+ {
+  "player": "Pietro Pellegri",
+  "to": "Torino"
+ },
+ {
+  "player": "Filip Stanković",
+  "to": "Venezia"
+ },
+ {
+  "player": "Alessandro Plizzari",
+  "to": "Venezia"
+ },
+ {
+  "player": "Matteo Grandi",
+  "to": "Venezia"
+ },
+ {
+  "player": "Armel Bella-Kotchap",
+  "to": "Venezia"
+ },
+ {
+  "player": "Joël Schingtienne",
+  "to": "Venezia"
+ },
+ {
+  "player": "Marin Šverko",
+  "to": "Venezia"
+ },
+ {
+  "player": "Seid Korac",
+  "to": "Venezia"
+ },
+ {
+  "player": "Giorgio Altare",
+  "to": "Venezia"
+ },
+ {
+  "player": "Ahmed Sidibé",
+  "to": "Venezia"
+ },
+ {
+  "player": "Michael Venturi",
+  "to": "Venezia"
+ },
+ {
+  "player": "Giovanni Di Renzo",
+  "to": "Venezia"
+ },
+ {
+  "player": "Junior Ligue",
+  "to": "Venezia"
+ },
+ {
+  "player": "Bartol Franjic",
+  "to": "Venezia"
+ },
+ {
+  "player": "Ridgeciano Haps",
+  "to": "Venezia"
+ },
+ {
+  "player": "Antoine Hainaut",
+  "to": "Venezia"
+ },
+ {
+  "player": "Thierry Correia",
+  "to": "Venezia"
+ },
+ {
+  "player": "Richie Sagrado",
+  "to": "Venezia"
+ },
+ {
+  "player": "Emil Bohinen",
+  "to": "Venezia"
+ },
+ {
+  "player": "Simone Panada",
+  "to": "Venezia"
+ },
+ {
+  "player": "Cheick Condé",
+  "to": "Venezia"
+ },
+ {
+  "player": "Gianluca Busio",
+  "to": "Venezia"
+ },
+ {
+  "player": "Matteo Dagasso",
+  "to": "Venezia"
+ },
+ {
+  "player": "Toma Bašić",
+  "to": "Venezia"
+ },
+ {
+  "player": "Kike Pérez",
+  "to": "Venezia"
+ },
+ {
+  "player": "Thórir Jóhann Helgason",
+  "to": "Venezia"
+ },
+ {
+  "player": "Lamine Fanne",
+  "to": "Venezia"
+ },
+ {
+  "player": "Alfred Duncan",
+  "to": "Venezia"
+ },
+ {
+  "player": "Nunzio Lella",
+  "to": "Venezia"
+ },
+ {
+  "player": "Edoardo Mariani",
+  "to": "Venezia"
+ },
+ {
+  "player": "Mattia Compagnon",
+  "to": "Venezia"
+ },
+ {
+  "player": "Bjarki Bjarkason",
+  "to": "Venezia"
+ },
+ {
+  "player": "Lorenzo Berardi",
+  "to": "Venezia"
+ },
+ {
+  "player": "Gaetano Oristanio",
+  "to": "Venezia"
+ },
+ {
+  "player": "Saad El Haddad",
+  "to": "Venezia"
+ },
+ {
+  "player": "Marko Farji",
+  "to": "Venezia"
+ },
+ {
+  "player": "Kornel Lisman",
+  "to": "Venezia"
+ },
+ {
+  "player": "Kevin Cannavò",
+  "to": "Venezia"
+ },
+ {
+  "player": "John Yeboah",
+  "to": "Venezia"
+ },
+ {
+  "player": "Andrea Adorante",
+  "to": "Venezia"
+ },
+ {
+  "player": "Lion Lauberbach",
+  "to": "Venezia"
+ },
+ {
+  "player": "Alvin Okoro",
+  "to": "Venezia"
+ },
+ {
+  "player": "Daniel Fila",
+  "to": "Venezia"
+ },
+ {
+  "player": "Antonio Casas",
+  "to": "Venezia"
+ },
+ {
+  "player": "Wladimiro Falcone",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Christian Früchtl",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Alexandru Borbei",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Jasper Samooja",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Tiago Gabriel",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Jamil Siebert",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Gaspar",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Gaby Jean",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Sebastian Esposito",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Matías Pérez",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Antonino Gallo",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Corrie Ndaba",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Vernon Addo",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Danilo Veiga",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Christ-Owen Kouassi",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Marlon Ubani",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Oumar Ngom",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Ylber Ramadani",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Sadik Fofana",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Niko Kovač",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Olaf Gorter",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Medon Berisha",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Mohamed Kaba",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Lassana Coulibaly",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Youssef Maleh",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Álex Sala",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Ed McJannet",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Omri Gandelman",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Filip Marchwinski",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Lameck Banda",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Marco Delle Monache",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Santiago Pierotti",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Konan N’Dri",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Nikola Stulic",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Milos Jovic",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Rareș Burnete",
+  "to": "US Lecce"
+ },
+ {
+  "player": "Demba Thiam",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Semuel Pizzignacco",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Aljaz Strajnar",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Tommaso Ciardi",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Lorenzo Lucchesi",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Andrea Carboni",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Luca Ravanelli",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Valentin Antov",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Filippo Delli Carri",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Arvid Brorsson",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Samuele Capolupo",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Samuele Birindelli",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Adam Bakoune",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Leonardo Colombo",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Matteo Pessina",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Hernani",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Alessandro Berretta",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Pedro Obiang",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Patrick Ciurria",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Paulo Azzi",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Andrea Colpani",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Foe Ondoa",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Nicolas Galazzi",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Keita Baldé",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Omari Forson",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Kevin Martins",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Patrick Cutrone",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Dany Mota",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Andrea Petagna",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Solomon Loubao",
+  "to": "AC Monza"
+ },
+ {
+  "player": "Lorenzo Palmisani",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Eldin Lolic",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Gabriele Bracaglia",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Ilario Monterisi",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Jacopo Gelli",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Niccolò Corrado",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Anthony Oyono",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Jérémy Oyono",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Matteo Cichella",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Giacomo Calò",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Ilias Koutsoupias",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Ben Lhassine Kone",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Filippo Grosso",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Francesco Gelli",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Abdoulie Ndow",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Giorgi Kvernadze",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Farès Ghedjemis",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Kevin Barcella",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Lorenzo Gori",
+  "to": "Frosinone Calcio"
+ }
+]
