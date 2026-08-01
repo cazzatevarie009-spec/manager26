@@ -452,10 +452,6 @@
   "to": "Napoli"
  },
  {
-  "player": "Emanuele Rao",
-  "to": "Napoli"
- },
- {
   "player": "David Neres",
   "to": "Napoli"
  },
@@ -915,6 +911,10 @@
   "to": "ACF Fiorentina"
  },
  {
+  "player": "Víctor Valdepeñas",
+  "to": "ACF Fiorentina"
+ },
+ {
   "player": "Nicolás Valentini",
   "to": "ACF Fiorentina"
  },
@@ -1014,10 +1014,6 @@
  },
  {
   "player": "Lukasz Skorupski",
-  "to": "Bologna FC 1909"
- },
- {
-  "player": "Federico Ravaglia",
   "to": "Bologna FC 1909"
  },
  {
@@ -1360,6 +1356,10 @@
   "to": "Parma Calcio 1913"
  },
  {
+  "player": "Ousmane Diallo",
+  "to": "Parma Calcio 1913"
+ },
+ {
   "player": "Pontus Almqvist",
   "to": "Parma Calcio 1913"
  },
@@ -1464,10 +1464,6 @@
   "to": "Udinese Calcio"
  },
  {
-  "player": "Martín Payero",
-  "to": "Udinese Calcio"
- },
- {
   "player": "Jakub Piotrowski",
   "to": "Udinese Calcio"
  },
@@ -1489,10 +1485,6 @@
  },
  {
   "player": "Unai Gómez",
-  "to": "Udinese Calcio"
- },
- {
-  "player": "Simone Pafundi",
   "to": "Udinese Calcio"
  },
  {
@@ -1574,6 +1566,13 @@
  {
   "player": "Mamedi Doucouré",
   "to": "Genoa CFC"
+ },
+ {
+  "player": "Mario Mitaj",
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Al-Ittihad Club",
+  "until": "2027-06-30"
  },
  {
   "player": "Aarón Martín",
@@ -1803,8 +1802,11 @@
   "to": "US Sassuolo"
  },
  {
-  "player": "Samuele Mulattieri",
-  "to": "US Sassuolo"
+  "player": "Kieron Bowie",
+  "to": "US Sassuolo",
+  "loan": true,
+  "from": "Hellas Verona",
+  "until": "2027-06-30"
  },
  {
   "player": "Agustín Álvarez",
@@ -1906,6 +1908,10 @@
   "to": "Torino"
  },
  {
+  "player": "Kian Fitz-Jim",
+  "to": "Torino"
+ },
+ {
   "player": "Aaron Ciammaglichella",
   "to": "Torino"
  },
@@ -1981,19 +1987,18 @@
   "to": "Cagliari Calcio"
  },
  {
+  "player": "Raphael Kofler",
+  "to": "Cagliari Calcio",
+  "loan": true,
+  "from": "FC Südtirol",
+  "until": "2027-06-30"
+ },
+ {
   "player": "Zé Pedro",
   "to": "Cagliari Calcio"
  },
  {
   "player": "Yerry Mina",
-  "to": "Cagliari Calcio"
- },
- {
-  "player": "Mateusz Wieteska",
-  "to": "Cagliari Calcio"
- },
- {
-  "player": "Davide Veroli",
   "to": "Cagliari Calcio"
  },
  {
@@ -4971,10 +4976,6 @@
   "to": "Hull City"
  },
  {
-  "player": "Mason Burstow",
-  "to": "Hull City"
- },
- {
   "player": "Enis Destan",
   "to": "Hull City"
  },
@@ -6259,6 +6260,10 @@
   "to": "Rayo Vallecano"
  },
  {
+  "player": "Mathew Ryan",
+  "to": "Levante UD"
+ },
+ {
   "player": "Pablo Campos",
   "to": "Levante UD"
  },
@@ -6481,10 +6486,6 @@
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "Mohamed Bouldini",
-  "to": "Deportivo A Coruña"
- },
- {
   "player": "Kevin Sánchez",
   "to": "Deportivo A Coruña"
  },
@@ -6494,6 +6495,10 @@
  },
  {
   "player": "Facundo González",
+  "to": "Racing Santander"
+ },
+ {
+  "player": "Pedro Felipe",
   "to": "Racing Santander"
  },
  {
@@ -8991,10 +8996,6 @@
   "to": "FC Schalke 04"
  },
  {
-  "player": "Max Grüger",
-  "to": "FC Schalke 04"
- },
- {
   "player": "Luca Vozar",
   "to": "FC Schalke 04"
  },
@@ -9016,10 +9017,6 @@
  },
  {
   "player": "Kenan Karaman",
-  "to": "FC Schalke 04"
- },
- {
-  "player": "Zaid Tchibara",
   "to": "FC Schalke 04"
  },
  {
@@ -9508,10 +9505,6 @@
  },
  {
   "player": "Abakar Sylla",
-  "to": "RC Strasbourg Alsace"
- },
- {
-  "player": "Yoni Gomis",
   "to": "RC Strasbourg Alsace"
  },
  {
@@ -10430,10 +10423,6 @@
   "to": "OGC Nice"
  },
  {
-  "player": "Mattia Viti",
-  "to": "OGC Nice"
- },
- {
   "player": "Mohamed Abdelmonem",
   "to": "OGC Nice"
  },
@@ -10984,6 +10973,13 @@
  {
   "player": "Godson Kyeremeh",
   "to": "Le Havre"
+ },
+ {
+  "player": "Josh Maja",
+  "to": "Le Havre",
+  "loan": true,
+  "from": "West Bromwich Albion",
+  "until": "2027-06-30"
  },
  {
   "player": "Noam Obougou",
