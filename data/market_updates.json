@@ -174,7 +174,10 @@
  },
  {
   "player": "Pape Matar Sarr",
-  "to": "Juventus"
+  "to": "Juventus",
+  "loan": true,
+  "from": "Tottenham",
+  "until": "2027-06-30"
  },
  {
   "player": "Douglas Luiz",
@@ -206,7 +209,10 @@
  },
  {
   "player": "Nick Woltemade",
-  "to": "Juventus"
+  "to": "Juventus",
+  "loan": true,
+  "from": "Newcastle",
+  "until": "2027-06-30"
  },
  {
   "player": "Randal Kolo Muani",
@@ -222,7 +228,10 @@
  },
  {
   "player": "Robert Sánchez",
-  "to": "Como 1907"
+  "to": "Como 1907",
+  "loan": true,
+  "from": "Chelsea",
+  "until": "2027-06-30"
  },
  {
   "player": "Jean Butez",
@@ -261,7 +270,10 @@
  },
  {
   "player": "Kaiki",
-  "to": "Como 1907"
+  "to": "Como 1907",
+  "loan": true,
+  "from": "Cruzeiro Esporte Clube",
+  "until": "2027-06-30"
  },
  {
   "player": "Álex Valle",
@@ -331,7 +343,10 @@
  },
  {
   "player": "Moise Kean",
-  "to": "Como 1907"
+  "to": "Como 1907",
+  "loan": true,
+  "from": "ACF Fiorentina",
+  "until": "2027-06-30"
  },
  {
   "player": "Anastasios Douvikas",
@@ -466,7 +481,10 @@
  },
  {
   "player": "Giorgio De Marzi",
-  "to": "Roma"
+  "to": "Roma",
+  "loan": true,
+  "from": "Roma U20",
+  "until": "2027-06-30"
  },
  {
   "player": "Evan Ndicka",
@@ -509,7 +527,10 @@
  },
  {
   "player": "Emanuele Lulli",
-  "to": "Roma"
+  "to": "Roma",
+  "loan": true,
+  "from": "Roma U20",
+  "until": "2027-06-30"
  },
  {
   "player": "Bryan Cristante",
@@ -643,7 +664,10 @@
  },
  {
   "player": "Jonathan Rowe",
-  "to": "Atalanta"
+  "to": "Atalanta",
+  "loan": true,
+  "from": "Bologna FC 1909",
+  "until": "2027-06-30"
  },
  {
   "player": "Kamaldeen Sulemana",
@@ -827,7 +851,10 @@
  },
  {
   "player": "João Mário",
-  "to": "ACF Fiorentina"
+  "to": "ACF Fiorentina",
+  "loan": true,
+  "from": "Juventus",
+  "until": "2027-06-30"
  },
  {
   "player": "Christ Inao Oulaï",
@@ -851,7 +878,10 @@
  },
  {
   "player": "Pedro Gonçalves",
-  "to": "ACF Fiorentina"
+  "to": "ACF Fiorentina",
+  "loan": true,
+  "from": "Sporting CP",
+  "until": "2027-06-30"
  },
  {
   "player": "Alieu Njie",
@@ -859,10 +889,6 @@
   "loan": true,
   "from": "Torino",
   "until": "2027-06-30"
- },
- {
-  "player": "Federico Croci",
-  "to": "ACF Fiorentina"
  },
  {
   "player": "Riccardo Sottil",
@@ -877,6 +903,13 @@
  },
  {
   "player": "Wilfried Gnonto",
+  "to": "ACF Fiorentina",
+  "loan": true,
+  "from": "Leeds United",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Federico Croci",
   "to": "ACF Fiorentina"
  },
  {
@@ -928,7 +961,10 @@
  },
  {
   "player": "Ricardo Bordon",
-  "to": "SS Lazio"
+  "to": "SS Lazio",
+  "loan": true,
+  "from": "Lazio U20",
+  "until": "2027-06-30"
  },
  {
   "player": "Nuno Tavares",
@@ -1015,7 +1051,10 @@
  },
  {
   "player": "Albert Gudmundsson",
-  "to": "SS Lazio"
+  "to": "SS Lazio",
+  "loan": true,
+  "from": "ACF Fiorentina",
+  "until": "2027-06-30"
  },
  {
   "player": "Andrea Pinamonti",
@@ -1077,6 +1116,13 @@
   "to": "Bologna FC 1909"
  },
  {
+  "player": "Matteo Darmian",
+  "to": "Bologna FC 1909",
+  "loan": true,
+  "from": "Without Club",
+  "until": "2027-06-30"
+ },
+ {
   "player": "Lorenzo De Silvestri",
   "to": "Bologna FC 1909"
  },
@@ -1114,7 +1160,10 @@
  },
  {
   "player": "Samuel Mbangula",
-  "to": "Bologna FC 1909"
+  "to": "Bologna FC 1909",
+  "loan": true,
+  "from": "SV Werder Bremen",
+  "until": "2027-06-30"
  },
  {
   "player": "Riccardo Orsolini",
@@ -1155,10 +1204,6 @@
   "to": "US Sassuolo"
  },
  {
-  "player": "Lorenzo Nyarko",
-  "to": "US Sassuolo"
- },
- {
   "player": "Jay Idzes",
   "to": "US Sassuolo"
  },
@@ -1179,10 +1224,6 @@
  },
  {
   "player": "Cas Odenthal",
-  "to": "US Sassuolo"
- },
- {
-  "player": "Giorgio Vezzosi",
   "to": "US Sassuolo"
  },
  {
@@ -1212,6 +1253,10 @@
   "until": "2027-06-30"
  },
  {
+  "player": "Simone Cinquegrano",
+  "to": "US Sassuolo"
+ },
+ {
   "player": "Yeferson Paz",
   "to": "US Sassuolo"
  },
@@ -1221,7 +1266,10 @@
  },
  {
   "player": "Ibrahim Sulemana",
-  "to": "US Sassuolo"
+  "to": "US Sassuolo",
+  "loan": true,
+  "from": "Atalanta",
+  "until": "2027-06-30"
  },
  {
   "player": "Daniel Boloca",
@@ -1248,12 +1296,11 @@
   "to": "US Sassuolo"
  },
  {
-  "player": "Simone Cinquegrano",
-  "to": "US Sassuolo"
- },
- {
   "player": "Vasilije Adžić",
-  "to": "US Sassuolo"
+  "to": "US Sassuolo",
+  "loan": true,
+  "from": "Juventus",
+  "until": "2027-06-30"
  },
  {
   "player": "Armand Laurienté",
@@ -1343,7 +1390,10 @@
  },
  {
   "player": "Ricardo Rodríguez",
-  "to": "Torino"
+  "to": "Torino",
+  "loan": true,
+  "from": "Without Club",
+  "until": "2027-06-30"
  },
  {
   "player": "Cristiano Biraghi",
@@ -1351,7 +1401,10 @@
  },
  {
   "player": "Rafik Belghali",
-  "to": "Torino"
+  "to": "Torino",
+  "loan": true,
+  "from": "Hellas Verona",
+  "until": "2027-06-30"
  },
  {
   "player": "Nathan Patterson",
@@ -1375,7 +1428,10 @@
  },
  {
   "player": "Daniel Bragança",
-  "to": "Torino"
+  "to": "Torino",
+  "loan": true,
+  "from": "Sporting CP",
+  "until": "2027-06-30"
  },
  {
   "player": "Kian Fitz-Jim",
@@ -1462,7 +1518,10 @@
  },
  {
   "player": "Lukas Klišys",
-  "to": "Genoa CFC"
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Genoa U20",
+  "until": "2027-06-30"
  },
  {
   "player": "Mario Mitaj",
@@ -1485,7 +1544,10 @@
  },
  {
   "player": "Kingsley Ehizibue",
-  "to": "Genoa CFC"
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Without Club",
+  "until": "2027-06-30"
  },
  {
   "player": "Stefano Sabelli",
@@ -1528,11 +1590,17 @@
  },
  {
   "player": "Stephan El Shaarawy",
-  "to": "Genoa CFC"
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Without Club",
+  "until": "2027-06-30"
  },
  {
   "player": "Robinho Junior",
-  "to": "Genoa CFC"
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Santos",
+  "until": "2027-06-30"
  },
  {
   "player": "Lorenzo Venturino",
@@ -1702,7 +1770,10 @@
  },
  {
   "player": "Diego Carlos",
-  "to": "Parma Calcio 1913"
+  "to": "Parma Calcio 1913",
+  "loan": true,
+  "from": "Fenerbahce",
+  "until": "2027-06-30"
  },
  {
   "player": "Lautaro Valenti",
@@ -1750,7 +1821,10 @@
  },
  {
   "player": "Vincent Sierro",
-  "to": "Parma Calcio 1913"
+  "to": "Parma Calcio 1913",
+  "loan": true,
+  "from": "Without Club",
+  "until": "2027-06-30"
  },
  {
   "player": "Abdou-Salam Konate",
@@ -1850,11 +1924,17 @@
  },
  {
   "player": "Yukinari Sugawara",
-  "to": "Cagliari Calcio"
+  "to": "Cagliari Calcio",
+  "loan": true,
+  "from": "Southampton",
+  "until": "2027-06-30"
  },
  {
   "player": "Alessandro Romano",
-  "to": "Cagliari Calcio"
+  "to": "Cagliari Calcio",
+  "loan": true,
+  "from": "Roma",
+  "until": "2027-06-30"
  },
  {
   "player": "Harry Winks",
@@ -1939,7 +2019,10 @@
  },
  {
   "player": "M'Bala Nzola",
-  "to": "Cagliari Calcio"
+  "to": "Cagliari Calcio",
+  "loan": true,
+  "from": "ACF Fiorentina",
+  "until": "2027-06-30"
  },
  {
   "player": "Yael Trepy",
@@ -1955,6 +2038,10 @@
  },
  {
   "player": "Alessio Pozzi",
+  "to": "Venezia"
+ },
+ {
+  "player": "Filippo Neri",
   "to": "Venezia"
  },
  {
@@ -2001,7 +2088,10 @@
  },
  {
   "player": "Rufai Mohammed",
-  "to": "Venezia"
+  "to": "Venezia",
+  "loan": true,
+  "from": "IF Elfsborg",
+  "until": "2027-06-30"
  },
  {
   "player": "Pasquale Mazzocchi",
@@ -2020,7 +2110,10 @@
  },
  {
   "player": "Simon Sohm",
-  "to": "Venezia"
+  "to": "Venezia",
+  "loan": true,
+  "from": "ACF Fiorentina",
+  "until": "2027-06-30"
  },
  {
   "player": "Matteo Dagasso",
@@ -2052,7 +2145,10 @@
  },
  {
   "player": "Thierry Correia",
-  "to": "Venezia"
+  "to": "Venezia",
+  "loan": true,
+  "from": "Valencia",
+  "until": "2027-06-30"
  },
  {
   "player": "Richie Sagrado",
@@ -2068,7 +2164,10 @@
  },
  {
   "player": "Toni Fernández",
-  "to": "Venezia"
+  "to": "Venezia",
+  "loan": true,
+  "from": "FC Barcelona",
+  "until": "2027-06-30"
  },
  {
   "player": "Kornel Lisman",
@@ -2260,7 +2359,10 @@
  },
  {
   "player": "Saba Goglichidze",
-  "to": "AC Monza"
+  "to": "AC Monza",
+  "loan": true,
+  "from": "Udinese Calcio",
+  "until": "2027-06-30"
  },
  {
   "player": "Lorenzo Lucchesi",
@@ -2302,7 +2404,10 @@
  },
  {
   "player": "Ebenezer Akinsanmiro",
-  "to": "AC Monza"
+  "to": "AC Monza",
+  "loan": true,
+  "from": "Inter",
+  "until": "2027-06-30"
  },
  {
   "player": "Matteo Pessina",
@@ -2391,7 +2496,10 @@
  },
  {
   "player": "Plamen Penev",
-  "to": "US Lecce"
+  "to": "US Lecce",
+  "loan": true,
+  "from": "Lecce Primavera",
+  "until": "2027-06-30"
  },
  {
   "player": "Tiago Gabriel",
@@ -2415,7 +2523,10 @@
  },
  {
   "player": "Elijah Scott",
-  "to": "US Lecce"
+  "to": "US Lecce",
+  "loan": true,
+  "from": "Lecce Primavera",
+  "until": "2027-06-30"
  },
  {
   "player": "Antonino Gallo",
@@ -2532,10 +2643,6 @@
   "to": "Manchester City"
  },
  {
-  "player": "Josko Gvardiol",
-  "to": "Manchester City"
- },
- {
   "player": "Rúben Dias",
   "to": "Manchester City"
  },
@@ -2545,6 +2652,10 @@
  },
  {
   "player": "Vitor Reis",
+  "to": "Manchester City"
+ },
+ {
+  "player": "Josko Gvardiol",
   "to": "Manchester City"
  },
  {
@@ -2692,19 +2803,19 @@
   "to": "Arsenal"
  },
  {
-  "player": "Noni Madueke",
-  "to": "Arsenal"
- },
- {
   "player": "Max Dowman",
   "to": "Arsenal"
  },
  {
-  "player": "Viktor Gyökeres",
+  "player": "Noni Madueke",
   "to": "Arsenal"
  },
  {
   "player": "Kai Havertz",
+  "to": "Arsenal"
+ },
+ {
+  "player": "Viktor Gyökeres",
   "to": "Arsenal"
  },
  {
@@ -2773,6 +2884,10 @@
  },
  {
   "player": "Valentín Barco",
+  "to": "Chelsea"
+ },
+ {
+  "player": "Mahdi Nicoll-Jazuli",
   "to": "Chelsea"
  },
  {
@@ -2898,11 +3013,11 @@
   "to": "Liverpool"
  },
  {
-  "player": "Florian Wirtz",
+  "player": "Dominik Szoboszlai",
   "to": "Liverpool"
  },
  {
-  "player": "Dominik Szoboszlai",
+  "player": "Florian Wirtz",
   "to": "Liverpool"
  },
  {
@@ -2914,11 +3029,11 @@
   "to": "Liverpool"
  },
  {
-  "player": "Víctor Muñoz",
+  "player": "Rio Ngumoha",
   "to": "Liverpool"
  },
  {
-  "player": "Rio Ngumoha",
+  "player": "Víctor Muñoz",
   "to": "Liverpool"
  },
  {
@@ -2954,19 +3069,19 @@
   "to": "Manchester Utd"
  },
  {
-  "player": "Leny Yoro",
-  "to": "Manchester Utd"
- },
- {
   "player": "Lisandro Martínez",
   "to": "Manchester Utd"
  },
  {
-  "player": "Matthijs de Ligt",
+  "player": "Leny Yoro",
   "to": "Manchester Utd"
  },
  {
   "player": "Ayden Heaven",
+  "to": "Manchester Utd"
+ },
+ {
+  "player": "Matthijs de Ligt",
   "to": "Manchester Utd"
  },
  {
@@ -3011,7 +3126,10 @@
  },
  {
   "player": "Tyler Fletcher",
-  "to": "Manchester Utd"
+  "to": "Manchester Utd",
+  "loan": true,
+  "from": "Manchester United U21",
+  "until": "2027-06-30"
  },
  {
   "player": "Bruno Fernandes",
@@ -3059,7 +3177,10 @@
  },
  {
   "player": "Martin Dúbravka",
-  "to": "Tottenham"
+  "to": "Tottenham",
+  "loan": true,
+  "from": "Burnley",
+  "until": "2027-06-30"
  },
  {
   "player": "Brandon Austin",
@@ -3147,7 +3268,10 @@
  },
  {
   "player": "Mykhaylo Mudryk",
-  "to": "Tottenham"
+  "to": "Tottenham",
+  "loan": true,
+  "from": "Chelsea",
+  "until": "2027-06-30"
  },
  {
   "player": "Mohammed Kudus",
@@ -3193,11 +3317,11 @@
   "to": "Newcastle"
  },
  {
-  "player": "Fabian Schär",
+  "player": "Dan Burn",
   "to": "Newcastle"
  },
  {
-  "player": "Dan Burn",
+  "player": "Fabian Schär",
   "to": "Newcastle"
  },
  {
@@ -3225,19 +3349,19 @@
   "to": "Newcastle"
  },
  {
-  "player": "Joelinton",
-  "to": "Newcastle"
- },
- {
   "player": "Lewis Miley",
   "to": "Newcastle"
  },
  {
-  "player": "Joe Willock",
+  "player": "Sean Steur",
   "to": "Newcastle"
  },
  {
-  "player": "Sean Steur",
+  "player": "Joelinton",
+  "to": "Newcastle"
+ },
+ {
+  "player": "Joe Willock",
   "to": "Newcastle"
  },
  {
@@ -3281,7 +3405,7 @@
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Luka Vušković",
+  "player": "Luka Vuskovic",
   "to": "Brighton & Hove Albion"
  },
  {
@@ -3293,11 +3417,11 @@
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Lewis Dunk",
+  "player": "Michael Svoboda",
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Michael Svoboda",
+  "player": "Lewis Dunk",
   "to": "Brighton & Hove Albion"
  },
  {
@@ -3337,11 +3461,11 @@
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Matt O'Riley",
+  "player": "Malick Yalcouyé",
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Malick Yalcouyé",
+  "player": "Matt O'Riley",
   "to": "Brighton & Hove Albion"
  },
  {
@@ -3369,19 +3493,11 @@
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Georginio Rutter",
-  "to": "Brighton & Hove Albion"
- },
- {
   "player": "Charalampos Kostoulas",
   "to": "Brighton & Hove Albion"
  },
  {
-  "player": "Evan Ferguson",
-  "to": "Brighton & Hove Albion"
- },
- {
-  "player": "Stefanos Tzimas",
+  "player": "Georginio Rutter",
   "to": "Brighton & Hove Albion"
  },
  {
@@ -3390,6 +3506,14 @@
   "loan": true,
   "from": "Union Saint-Gilloise",
   "until": "2027-06-30"
+ },
+ {
+  "player": "Stefanos Tzimas",
+  "to": "Brighton & Hove Albion"
+ },
+ {
+  "player": "Evan Ferguson",
+  "to": "Brighton & Hove Albion"
  },
  {
   "player": "Caoimhín Kelleher",
@@ -3511,6 +3635,242 @@
   "until": "2027-06-30"
  },
  {
+  "player": "Zion Suzuki",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Marco Bizot",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "James Wright",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Taylor Harwood-Bellis",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Pau Torres",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Modou Kéba Cissé",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Victor Lindelöf",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Tyrone Mings",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Ian Maatsen",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Matteo Ruggeri",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Matty Cash",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Aaron Wan-Bissaka",
+  "to": "Aston Villa",
+  "loan": true,
+  "from": "West Ham United",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Boubacar Kamara",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Amadou Onana",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Lamare Bogarde",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "João Gomes",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Leon Goretzka",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Ross Barkley",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "John McGinn",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Johan Manzambi",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Emiliano Buendía",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Alejandro Garnacho",
+  "to": "Aston Villa",
+  "loan": true,
+  "from": "Chelsea",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "George Hemmings",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Ibrahim Mbaye",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Alysson",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Nicolas Jackson",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Brian Madjo",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Tammy Abraham",
+  "to": "Aston Villa"
+ },
+ {
+  "player": "Djordje Petrović",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Michele Di Gregorio",
+  "to": "AFC Bournemouth",
+  "loan": true,
+  "from": "Juventus",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Fraser Forster",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "James Hill",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "António Silva",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Bafodé Diakité",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Veljko Milosavljević",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Adrien Truffert",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Julio Soler",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Juanlu Sánchez",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Julián Araujo",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Max Aarons",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Adam Smith",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Tyler Adams",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Alex Scott",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Alex Tóth",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Lewis Cook",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Ryan Christie",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Justin Kluivert",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Marcus Tavernier",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Amine Adli",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Rayan",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Ben Gannon-Doak",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "David Brooks",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Junior Kroupi",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Evanilson",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Álvaro Rodríguez",
+  "to": "AFC Bournemouth"
+ },
+ {
+  "player": "Daniel Jebbison",
+  "to": "AFC Bournemouth",
+  "loan": true,
+  "from": "Preston North End",
+  "until": "2028-06-30"
+ },
+ {
   "player": "Dean Henderson",
   "to": "Crystal Palace"
  },
@@ -3524,7 +3884,10 @@
  },
  {
   "player": "Honest Ahanor",
-  "to": "Crystal Palace"
+  "to": "Crystal Palace",
+  "loan": true,
+  "from": "Atalanta",
+  "until": "2027-06-30"
  },
  {
   "player": "Jaydee Canvot",
@@ -3602,11 +3965,14 @@
   "to": "Crystal Palace"
  },
  {
-  "player": "Evann Guessand",
-  "to": "Crystal Palace"
+  "player": "Darío Osorio",
+  "to": "Crystal Palace",
+  "loan": true,
+  "from": "FC Midtjylland",
+  "until": "2027-06-30"
  },
  {
-  "player": "Darío Osorio",
+  "player": "Evann Guessand",
   "to": "Crystal Palace"
  },
  {
@@ -3624,239 +3990,6 @@
  {
   "player": "Eddie Nketiah",
   "to": "Crystal Palace"
- },
- {
-  "player": "Djordje Petrovic",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Michele Di Gregorio",
-  "to": "AFC Bournemouth",
-  "loan": true,
-  "from": "Juventus",
-  "until": "2027-06-30"
- },
- {
-  "player": "Fraser Forster",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "António Silva",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Bafodé Diakité",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "James Hill",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Veljko Milosavljevic",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Adrien Truffert",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Julio Soler",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Juanlu Sánchez",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Julián Araujo",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Max Aarons",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Adam Smith",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Tyler Adams",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Ben Winterburn",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Alex Scott",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Alex Tóth",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Lewis Cook",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Ryan Christie",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Justin Kluivert",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Marcus Tavernier",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Amine Adli",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Rayan",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Ben Gannon-Doak",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "David Brooks",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Junior Kroupi",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Evanilson",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Álvaro Rodríguez",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Daniel Jebbison",
-  "to": "AFC Bournemouth"
- },
- {
-  "player": "Zion Suzuki",
-  "to": "Aston Villa"
- },
- {
-  "player": "Marco Bizot",
-  "to": "Aston Villa"
- },
- {
-  "player": "Taylor Harwood-Bellis",
-  "to": "Aston Villa"
- },
- {
-  "player": "Pau Torres",
-  "to": "Aston Villa"
- },
- {
-  "player": "Modou Kéba Cissé",
-  "to": "Aston Villa"
- },
- {
-  "player": "Victor Lindelöf",
-  "to": "Aston Villa"
- },
- {
-  "player": "Tyrone Mings",
-  "to": "Aston Villa"
- },
- {
-  "player": "Ian Maatsen",
-  "to": "Aston Villa"
- },
- {
-  "player": "Matteo Ruggeri",
-  "to": "Aston Villa"
- },
- {
-  "player": "Matty Cash",
-  "to": "Aston Villa"
- },
- {
-  "player": "Aaron Wan-Bissaka",
-  "to": "Aston Villa",
-  "loan": true,
-  "from": "West Ham United",
-  "until": "2027-06-30"
- },
- {
-  "player": "Amadou Onana",
-  "to": "Aston Villa"
- },
- {
-  "player": "Boubacar Kamara",
-  "to": "Aston Villa"
- },
- {
-  "player": "Lamare Bogarde",
-  "to": "Aston Villa"
- },
- {
-  "player": "João Gomes",
-  "to": "Aston Villa"
- },
- {
-  "player": "John McGinn",
-  "to": "Aston Villa"
- },
- {
-  "player": "Leon Goretzka",
-  "to": "Aston Villa"
- },
- {
-  "player": "Ross Barkley",
-  "to": "Aston Villa"
- },
- {
-  "player": "Johan Manzambi",
-  "to": "Aston Villa"
- },
- {
-  "player": "Emiliano Buendía",
-  "to": "Aston Villa"
- },
- {
-  "player": "Alejandro Garnacho",
-  "to": "Aston Villa",
-  "loan": true,
-  "from": "Chelsea",
-  "until": "2027-06-30"
- },
- {
-  "player": "George Hemmings",
-  "to": "Aston Villa"
- },
- {
-  "player": "Ibrahim Mbaye",
-  "to": "Aston Villa"
- },
- {
-  "player": "Alysson",
-  "to": "Aston Villa"
- },
- {
-  "player": "Nicolas Jackson",
-  "to": "Aston Villa"
- },
- {
-  "player": "Tammy Abraham",
-  "to": "Aston Villa"
- },
- {
-  "player": "Brian Madjo",
-  "to": "Aston Villa"
  },
  {
   "player": "John Victor",
@@ -3914,11 +4047,11 @@
   "to": "Nottingham Forest"
  },
  {
-  "player": "Nicolás Domínguez",
+  "player": "Xaver Schlager",
   "to": "Nottingham Forest"
  },
  {
-  "player": "Xaver Schlager",
+  "player": "Nicolás Domínguez",
   "to": "Nottingham Forest"
  },
  {
@@ -3970,12 +4103,15 @@
   "to": "Sunderland AFC"
  },
  {
-  "player": "Kevin Danso",
+  "player": "Dan Ballard",
   "to": "Sunderland AFC"
  },
  {
-  "player": "Dan Ballard",
-  "to": "Sunderland AFC"
+  "player": "Kevin Danso",
+  "to": "Sunderland AFC",
+  "loan": true,
+  "from": "Tottenham",
+  "until": "2027-06-30"
  },
  {
   "player": "Omar Alderete",
@@ -4018,11 +4154,11 @@
   "to": "Sunderland AFC"
  },
  {
-  "player": "Habib Diarra",
+  "player": "Noah Sadiki",
   "to": "Sunderland AFC"
  },
  {
-  "player": "Noah Sadiki",
+  "player": "Habib Diarra",
   "to": "Sunderland AFC"
  },
  {
@@ -4031,10 +4167,7 @@
  },
  {
   "player": "Alan Browne",
-  "to": "Sunderland AFC",
-  "loan": true,
-  "from": "Preston North End",
-  "until": "2027-06-30"
+  "to": "Sunderland AFC"
  },
  {
   "player": "Chris Rigg",
@@ -4106,7 +4239,10 @@
  },
  {
   "player": "Melvin Bard",
-  "to": "Leeds United"
+  "to": "Leeds United",
+  "loan": true,
+  "from": "OGC Nice",
+  "until": "2027-06-30"
  },
  {
   "player": "Jayden Bogle",
@@ -4129,11 +4265,11 @@
   "to": "Leeds United"
  },
  {
-  "player": "Sean Longstaff",
+  "player": "Ao Tanaka",
   "to": "Leeds United"
  },
  {
-  "player": "Ao Tanaka",
+  "player": "Sean Longstaff",
   "to": "Leeds United"
  },
  {
@@ -4146,7 +4282,10 @@
  },
  {
   "player": "Jean-Mattéo Bahoya",
-  "to": "Leeds United"
+  "to": "Leeds United",
+  "loan": true,
+  "from": "Eintracht Frankfurt",
+  "until": "2027-06-30"
  },
  {
   "player": "Harry Wilson",
@@ -4167,110 +4306,6 @@
  {
   "player": "Mateo Joseph",
   "to": "Leeds United"
- },
- {
-  "player": "Bernd Leno",
-  "to": "Fulham"
- },
- {
-  "player": "Benjamin Lecomte",
-  "to": "Fulham"
- },
- {
-  "player": "Alex Borto",
-  "to": "Fulham"
- },
- {
-  "player": "Calvin Bassey",
-  "to": "Fulham"
- },
- {
-  "player": "Joachim Andersen",
-  "to": "Fulham"
- },
- {
-  "player": "David Affengruber",
-  "to": "Fulham"
- },
- {
-  "player": "Jorge Cuenca",
-  "to": "Fulham"
- },
- {
-  "player": "Ryan Sessegnon",
-  "to": "Fulham"
- },
- {
-  "player": "Antonee Robinson",
-  "to": "Fulham"
- },
- {
-  "player": "Kenny Tete",
-  "to": "Fulham"
- },
- {
-  "player": "Timothy Castagne",
-  "to": "Fulham"
- },
- {
-  "player": "Sander Berge",
-  "to": "Fulham"
- },
- {
-  "player": "Alex Iwobi",
-  "to": "Fulham"
- },
- {
-  "player": "Shea Charles",
-  "to": "Fulham"
- },
- {
-  "player": "Hugo Larsson",
-  "to": "Fulham"
- },
- {
-  "player": "Manuel Ángel",
-  "to": "Fulham"
- },
- {
-  "player": "Harrison Reed",
-  "to": "Fulham"
- },
- {
-  "player": "Tom Cairney",
-  "to": "Fulham"
- },
- {
-  "player": "Josh King",
-  "to": "Fulham"
- },
- {
-  "player": "Emile Smith Rowe",
-  "to": "Fulham"
- },
- {
-  "player": "César Palacios",
-  "to": "Fulham"
- },
- {
-  "player": "Kevin",
-  "to": "Fulham"
- },
- {
-  "player": "Oscar Bobb",
-  "to": "Fulham"
- },
- {
-  "player": "Gonzalo García",
-  "to": "Fulham"
- },
- {
-  "player": "Rodrigo Muniz",
-  "to": "Fulham"
- },
- {
-  "player": "Jonah Kusi-Asare",
-  "to": "Fulham"
  },
  {
   "player": "Jordan Pickford",
@@ -4321,15 +4356,18 @@
   "to": "Everton"
  },
  {
+  "player": "Harrison Armstrong",
+  "to": "Everton",
+  "loan": true,
+  "from": "Preston North End",
+  "until": "2028-06-30"
+ },
+ {
   "player": "Merlin Röhl",
   "to": "Everton"
  },
  {
-  "player": "Carlos Alcaraz",
-  "to": "Everton"
- },
- {
-  "player": "Harrison Armstrong",
+  "player": "Charly Alcaraz",
   "to": "Everton"
  },
  {
@@ -4337,12 +4375,15 @@
   "to": "Everton"
  },
  {
-  "player": "Jack Grealish",
+  "player": "Tyrique George",
   "to": "Everton"
  },
  {
-  "player": "Tyrique George",
-  "to": "Everton"
+  "player": "Jack Grealish",
+  "to": "Everton",
+  "loan": true,
+  "from": "Manchester City",
+  "until": "2027-06-30"
  },
  {
   "player": "Brennan Johnson",
@@ -4355,6 +4396,120 @@
  {
   "player": "Thierno Barry",
   "to": "Everton"
+ },
+ {
+  "player": "Braiden Graham",
+  "to": "Everton"
+ },
+ {
+  "player": "Bernd Leno",
+  "to": "Fulham"
+ },
+ {
+  "player": "Benjamin Lecomte",
+  "to": "Fulham"
+ },
+ {
+  "player": "Alex Borto",
+  "to": "Fulham",
+  "loan": true,
+  "from": "Fulham FC U21",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Calvin Bassey",
+  "to": "Fulham"
+ },
+ {
+  "player": "David Affengruber",
+  "to": "Fulham"
+ },
+ {
+  "player": "Joachim Andersen",
+  "to": "Fulham"
+ },
+ {
+  "player": "Jorge Cuenca",
+  "to": "Fulham"
+ },
+ {
+  "player": "Ryan Sessegnon",
+  "to": "Fulham"
+ },
+ {
+  "player": "Antonee Robinson",
+  "to": "Fulham"
+ },
+ {
+  "player": "Timothy Castagne",
+  "to": "Fulham"
+ },
+ {
+  "player": "Kenny Tete",
+  "to": "Fulham"
+ },
+ {
+  "player": "Sander Berge",
+  "to": "Fulham"
+ },
+ {
+  "player": "Shea Charles",
+  "to": "Fulham"
+ },
+ {
+  "player": "Alex Iwobi",
+  "to": "Fulham"
+ },
+ {
+  "player": "Hugo Larsson",
+  "to": "Fulham",
+  "loan": true,
+  "from": "Eintracht Frankfurt",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Manuel Ángel",
+  "to": "Fulham"
+ },
+ {
+  "player": "Harrison Reed",
+  "to": "Fulham"
+ },
+ {
+  "player": "Tom Cairney",
+  "to": "Fulham"
+ },
+ {
+  "player": "Josh King",
+  "to": "Fulham"
+ },
+ {
+  "player": "Emile Smith Rowe",
+  "to": "Fulham"
+ },
+ {
+  "player": "César Palacios",
+  "to": "Fulham"
+ },
+ {
+  "player": "Kevin",
+  "to": "Fulham"
+ },
+ {
+  "player": "Oscar Bobb",
+  "to": "Fulham"
+ },
+ {
+  "player": "Gonzalo García",
+  "to": "Fulham"
+ },
+ {
+  "player": "Rodrigo Muniz",
+  "to": "Fulham"
+ },
+ {
+  "player": "Jonah Kusi-Asare",
+  "to": "Fulham"
  },
  {
   "player": "Kjell Scherpen",
@@ -4457,11 +4612,11 @@
   "to": "Ipswich Town"
  },
  {
-  "player": "Zian Flemming",
+  "player": "Emersonn",
   "to": "Ipswich Town"
  },
  {
-  "player": "Emersonn",
+  "player": "Zian Flemming",
   "to": "Ipswich Town"
  },
  {
@@ -4473,7 +4628,7 @@
   "to": "Coventry City"
  },
  {
-  "player": "Daniel Bentley",
+  "player": "Dan Bentley",
   "to": "Coventry City"
  },
  {
@@ -4493,19 +4648,19 @@
   "to": "Coventry City"
  },
  {
+  "player": "Stephen Mfuni",
+  "to": "Coventry City",
+  "loan": true,
+  "from": "Manchester City U21",
+  "until": "2027-06-30"
+ },
+ {
   "player": "Joel Latibeaudiere",
   "to": "Coventry City"
  },
  {
   "player": "Luke Woolfenden",
   "to": "Coventry City"
- },
- {
-  "player": "Stephen Mfuni",
-  "to": "Coventry City",
-  "loan": true,
-  "from": "Manchester City U21",
-  "until": "2027-06-30"
  },
  {
   "player": "Jay Dasilva",
@@ -4552,11 +4707,11 @@
   "to": "Coventry City"
  },
  {
-  "player": "Yann Gboho",
+  "player": "Ephron Mason-Clark",
   "to": "Coventry City"
  },
  {
-  "player": "Ephron Mason-Clark",
+  "player": "Yann Gboho",
   "to": "Coventry City"
  },
  {
@@ -4600,7 +4755,7 @@
   "to": "Hull City"
  },
  {
-  "player": "Charlie Hughes",
+  "player": "Nobel Mendy",
   "to": "Hull City"
  },
  {
@@ -4608,15 +4763,15 @@
   "to": "Hull City"
  },
  {
-  "player": "Nobel Mendy",
-  "to": "Hull City"
- },
- {
-  "player": "Paddy McNair",
+  "player": "Charlie Hughes",
   "to": "Hull City"
  },
  {
   "player": "John Egan",
+  "to": "Hull City"
+ },
+ {
+  "player": "Paddy McNair",
   "to": "Hull City"
  },
  {
@@ -4640,11 +4795,11 @@
   "to": "Hull City"
  },
  {
-  "player": "Lucas Gourna-Douath",
+  "player": "Regan Slater",
   "to": "Hull City"
  },
  {
-  "player": "Regan Slater",
+  "player": "Lucas Gourna-Douath",
   "to": "Hull City"
  },
  {
@@ -4692,11 +4847,11 @@
   "to": "Hull City"
  },
  {
-  "player": "Mohamed-Ali Cho",
+  "player": "Mohamed Belloumi",
   "to": "Hull City"
  },
  {
-  "player": "Mohamed Belloumi",
+  "player": "Mohamed-Ali Cho",
   "to": "Hull City"
  },
  {
@@ -4705,14 +4860,17 @@
  },
  {
   "player": "Robinio Vaz",
+  "to": "Hull City",
+  "loan": true,
+  "from": "Roma",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Ilyas Ansah",
   "to": "Hull City"
  },
  {
   "player": "Joe Gelhardt",
-  "to": "Hull City"
- },
- {
-  "player": "Ilyas Ansah",
   "to": "Hull City"
  },
  {
@@ -4864,11 +5022,11 @@
   "to": "FC Barcelona"
  },
  {
-  "player": "João Cancelo",
+  "player": "Xavi Espart",
   "to": "FC Barcelona"
  },
  {
-  "player": "Xavi Espart",
+  "player": "João Cancelo",
   "to": "FC Barcelona"
  },
  {
@@ -4880,7 +5038,7 @@
   "to": "FC Barcelona"
  },
  {
-  "player": "Frenkie de Jong",
+  "player": "Marc Bernal",
   "to": "FC Barcelona"
  },
  {
@@ -4888,7 +5046,7 @@
   "to": "FC Barcelona"
  },
  {
-  "player": "Marc Bernal",
+  "player": "Frenkie de Jong",
   "to": "FC Barcelona"
  },
  {
@@ -4948,15 +5106,15 @@
   "to": "Atlético Madrid"
  },
  {
+  "player": "Marc Pubill",
+  "to": "Atlético Madrid"
+ },
+ {
   "player": "Cristian Romero",
   "to": "Atlético Madrid"
  },
  {
   "player": "Dávid Hancko",
-  "to": "Atlético Madrid"
- },
- {
-  "player": "Marc Pubill",
   "to": "Atlético Madrid"
  },
  {
@@ -5045,7 +5203,10 @@
  },
  {
   "player": "Rubén Gómez",
-  "to": "Villarreal"
+  "to": "Villarreal",
+  "loan": true,
+  "from": "Villarreal CF B",
+  "until": "2027-06-30"
  },
  {
   "player": "Renato Veiga",
@@ -5084,15 +5245,15 @@
   "to": "Villarreal"
  },
  {
+  "player": "Carlos Macià",
+  "to": "Villarreal"
+ },
+ {
   "player": "Nathan Saliba",
   "to": "Villarreal"
  },
  {
   "player": "Santi Comesaña",
-  "to": "Villarreal"
- },
- {
-  "player": "Carlos Macià",
   "to": "Villarreal"
  },
  {
@@ -5159,6 +5320,10 @@
   "to": "Real Sociedad"
  },
  {
+  "player": "Luken Beitia",
+  "to": "Real Sociedad"
+ },
+ {
   "player": "Sergio Gómez",
   "to": "Real Sociedad"
  },
@@ -5183,11 +5348,11 @@
   "to": "Real Sociedad"
  },
  {
-  "player": "Beñat Turrientes",
+  "player": "Luka Sucic",
   "to": "Real Sociedad"
  },
  {
-  "player": "Luka Sucic",
+  "player": "Beñat Turrientes",
   "to": "Real Sociedad"
  },
  {
@@ -5212,6 +5377,10 @@
  },
  {
   "player": "Gonçalo Guedes",
+  "to": "Real Sociedad"
+ },
+ {
+  "player": "Alex Marchal",
   "to": "Real Sociedad"
  },
  {
@@ -5390,11 +5559,11 @@
   "to": "Athletic Bilbao"
  },
  {
-  "player": "Iñigo Ruiz de Galarreta",
+  "player": "Beñat Gerenabarrena",
   "to": "Athletic Bilbao"
  },
  {
-  "player": "Beñat Gerenabarrena",
+  "player": "Iñigo Ruiz de Galarreta",
   "to": "Athletic Bilbao"
  },
  {
@@ -5418,11 +5587,11 @@
   "to": "Athletic Bilbao"
  },
  {
-  "player": "Nico Serrano",
+  "player": "Robert Navarro",
   "to": "Athletic Bilbao"
  },
  {
-  "player": "Robert Navarro",
+  "player": "Nico Serrano",
   "to": "Athletic Bilbao"
  },
  {
@@ -5457,19 +5626,22 @@
   "to": "Celta de Vigo"
  },
  {
+  "player": "Yoel Lago",
+  "to": "Celta de Vigo"
+ },
+ {
   "player": "Carl Starfelt",
   "to": "Celta de Vigo"
  },
  {
   "player": "Abdoulaye Faye",
-  "to": "Celta de Vigo"
+  "to": "Celta de Vigo",
+  "loan": true,
+  "from": "Bayer Leverkusen",
+  "until": "2027-06-30"
  },
  {
   "player": "Sebastián Cáceres",
-  "to": "Celta de Vigo"
- },
- {
-  "player": "Yoel Lago",
   "to": "Celta de Vigo"
  },
  {
@@ -5553,11 +5725,11 @@
   "to": "Sevilla"
  },
  {
-  "player": "Arouna Sangante",
+  "player": "Andrés Castrín",
   "to": "Sevilla"
  },
  {
-  "player": "Andrés Castrín",
+  "player": "Arouna Sangante",
   "to": "Sevilla"
  },
  {
@@ -5585,15 +5757,19 @@
   "to": "Sevilla"
  },
  {
-  "player": "Youssouf Fofana",
-  "to": "Sevilla"
- },
- {
   "player": "Lucien Agoumé",
   "to": "Sevilla"
  },
  {
+  "player": "Youssouf Fofana",
+  "to": "Sevilla"
+ },
+ {
   "player": "Giorgi Kochorashvili",
+  "to": "Sevilla"
+ },
+ {
+  "player": "Nico Guillén",
   "to": "Sevilla"
  },
  {
@@ -5602,10 +5778,6 @@
  },
  {
   "player": "Manu Bueno",
-  "to": "Sevilla"
- },
- {
-  "player": "Nico Guillén",
   "to": "Sevilla"
  },
  {
@@ -5645,15 +5817,15 @@
   "to": "Sevilla"
  },
  {
-  "player": "Stole Dimitrievski",
-  "to": "Valencia"
- },
- {
   "player": "Kayne van Oevelen",
   "to": "Valencia",
   "loan": true,
   "from": "Ipswich Town",
   "until": "2027-06-30"
+ },
+ {
+  "player": "Stole Dimitrievski",
+  "to": "Valencia"
  },
  {
   "player": "Cristian Rivero",
@@ -5728,14 +5900,17 @@
  },
  {
   "player": "Harvey Elliott",
+  "to": "Valencia",
+  "loan": true,
+  "from": "Liverpool",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Ryunosuke Sato",
   "to": "Valencia"
  },
  {
   "player": "Arnaut Danjuma",
-  "to": "Valencia"
- },
- {
-  "player": "Ryunosuke Sato",
   "to": "Valencia"
  },
  {
@@ -5747,11 +5922,11 @@
   "to": "Valencia"
  },
  {
-  "player": "Luis Rioja",
+  "player": "David Otorbi",
   "to": "Valencia"
  },
  {
-  "player": "David Otorbi",
+  "player": "Luis Rioja",
   "to": "Valencia"
  },
  {
@@ -5813,7 +5988,10 @@
  },
  {
   "player": "Andoni Gorosabel",
-  "to": "RCD Espanyol Barcelona"
+  "to": "RCD Espanyol Barcelona",
+  "loan": true,
+  "from": "Athletic Bilbao",
+  "until": "2027-06-30"
  },
  {
   "player": "Urko González de Zárate",
@@ -5839,11 +6017,11 @@
   "to": "RCD Espanyol Barcelona"
  },
  {
-  "player": "Álex Calatrava",
+  "player": "Javi Hernández",
   "to": "RCD Espanyol Barcelona"
  },
  {
-  "player": "Javi Hernández",
+  "player": "Álex Calatrava",
   "to": "RCD Espanyol Barcelona"
  },
  {
@@ -5895,6 +6073,13 @@
  },
  {
   "player": "José María Giménez",
+  "to": "Deportivo A Coruña",
+  "loan": true,
+  "from": "Atlético Madrid",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Bright Ede",
   "to": "Deportivo A Coruña"
  },
  {
@@ -5906,20 +6091,19 @@
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "Bright Ede",
-  "to": "Deportivo A Coruña"
- },
- {
   "player": "Arnau Comas",
-  "to": "Deportivo A Coruña"
- },
- {
-  "player": "Angeliño",
   "to": "Deportivo A Coruña"
  },
  {
   "player": "Giacomo Quagliata",
   "to": "Deportivo A Coruña"
+ },
+ {
+  "player": "Angeliño",
+  "to": "Deportivo A Coruña",
+  "loan": true,
+  "from": "Roma",
+  "until": "2027-06-30"
  },
  {
   "player": "Adrià Altimira",
@@ -5935,7 +6119,10 @@
  },
  {
   "player": "Marc Casadó",
-  "to": "Deportivo A Coruña"
+  "to": "Deportivo A Coruña",
+  "loan": true,
+  "from": "FC Barcelona",
+  "until": "2027-06-30"
  },
  {
   "player": "Lorenzo Amatucci",
@@ -5954,11 +6141,11 @@
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "Mario Soriano",
+  "player": "Jonathan Asp Jensen",
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "Jonathan Asp Jensen",
+  "player": "Mario Soriano",
   "to": "Deportivo A Coruña"
  },
  {
@@ -5966,11 +6153,11 @@
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "Adama Traoré",
+  "player": "David Mella",
   "to": "Deportivo A Coruña"
  },
  {
-  "player": "David Mella",
+  "player": "Adama Traoré",
   "to": "Deportivo A Coruña"
  },
  {
@@ -5999,7 +6186,10 @@
  },
  {
   "player": "Jeanuël Belocian",
-  "to": "Racing Santander"
+  "to": "Racing Santander",
+  "loan": true,
+  "from": "Bayer Leverkusen",
+  "until": "2027-06-30"
  },
  {
   "player": "Facundo González",
@@ -6023,7 +6213,10 @@
  },
  {
   "player": "Aarón Martín",
-  "to": "Racing Santander"
+  "to": "Racing Santander",
+  "loan": true,
+  "from": "Genoa CFC",
+  "until": "2027-06-30"
  },
  {
   "player": "Álvaro Mantilla",
@@ -6050,7 +6243,10 @@
  },
  {
   "player": "André Almeida",
-  "to": "Racing Santander"
+  "to": "Racing Santander",
+  "loan": true,
+  "from": "Valencia",
+  "until": "2027-06-30"
  },
  {
   "player": "Sergio Canales",
@@ -6092,6 +6288,126 @@
   "to": "Racing Santander"
  },
  {
+  "player": "Augusto Batalla",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Emil Audero",
+  "to": "Rayo Vallecano",
+  "loan": true,
+  "from": "Como 1907",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Dani Cárdenas",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Mujaid Sadick",
+  "to": "Rayo Vallecano",
+  "loan": true,
+  "from": "KRC Genk",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Marash Kumbulla",
+  "to": "Rayo Vallecano",
+  "loan": true,
+  "from": "Roma",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Luiz Felipe",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Jozhua Vertrouwd",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Florian Lejeune",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Pelayo Fernández",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Adrià Pedrosa",
+  "to": "Rayo Vallecano",
+  "loan": true,
+  "from": "Sevilla",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Andrei Rațiu",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Iván Balliu",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Pedro Díaz",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Unai López",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Óscar Valentín",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Pathé Ciss",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Gnangoro Bouare",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Randy Nteka",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Rayane Belaid",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Álvaro García",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Jorge de Frutos",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Giorgi Tsitaishvili",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Fran Pérez",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Isi Palazón",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Sergio Camello",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Alemão",
+  "to": "Rayo Vallecano"
+ },
+ {
+  "player": "Raúl de Tomás",
+  "to": "Rayo Vallecano"
+ },
+ {
   "player": "David Soria",
   "to": "Getafe"
  },
@@ -6100,11 +6416,11 @@
   "to": "Getafe"
  },
  {
-  "player": "Abdel Abqar",
+  "player": "Zaid Romero",
   "to": "Getafe"
  },
  {
-  "player": "Zaid Romero",
+  "player": "Abdel Abqar",
   "to": "Getafe"
  },
  {
@@ -6117,7 +6433,10 @@
  },
  {
   "player": "Saba Sazonov",
-  "to": "Getafe"
+  "to": "Getafe",
+  "loan": true,
+  "from": "Torino",
+  "until": "2027-06-30"
  },
  {
   "player": "Jean Ives Valou",
@@ -6127,15 +6446,15 @@
   "until": "2027-06-30"
  },
  {
+  "player": "Davinchi",
+  "to": "Getafe"
+ },
+ {
   "player": "Johan Mojica",
   "to": "Getafe",
   "loan": true,
   "from": "RCD Mallorca",
   "until": "2027-06-30"
- },
- {
-  "player": "Davinchi",
-  "to": "Getafe"
  },
  {
   "player": "Andrés García",
@@ -6175,11 +6494,14 @@
   "to": "Getafe"
  },
  {
-  "player": "Juanmi",
-  "to": "Getafe"
+  "player": "Alberto Risco",
+  "to": "Getafe",
+  "loan": true,
+  "from": "Getafe CF B",
+  "until": "2027-06-30"
  },
  {
-  "player": "Christantus Uche",
+  "player": "Juanmi",
   "to": "Getafe"
  },
  {
@@ -6187,15 +6509,22 @@
   "to": "Getafe"
  },
  {
+  "player": "Christantus Uche",
+  "to": "Getafe"
+ },
+ {
+  "player": "Iván Azón",
+  "to": "Getafe",
+  "loan": true,
+  "from": "Como 1907",
+  "until": "2027-06-30"
+ },
+ {
   "player": "Enes Ünal",
   "to": "Getafe"
  },
  {
   "player": "Borja Mayoral",
-  "to": "Getafe"
- },
- {
-  "player": "Iván Azón",
   "to": "Getafe"
  },
  {
@@ -6294,11 +6623,14 @@
   "to": "Levante UD"
  },
  {
-  "player": "Karl Etta Eyong",
-  "to": "Levante UD"
+  "player": "Petar Ratkov",
+  "to": "Levante UD",
+  "loan": true,
+  "from": "SS Lazio",
+  "until": "2027-06-30"
  },
  {
-  "player": "Petar Ratkov",
+  "player": "Karl Etta Eyong",
   "to": "Levante UD"
  },
  {
@@ -6308,120 +6640,6 @@
  {
   "player": "Yanis Musuayi",
   "to": "Levante UD"
- },
- {
-  "player": "Augusto Batalla",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Emil Audero",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Dani Cárdenas",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Mujaid Sadick",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Marash Kumbulla",
-  "to": "Rayo Vallecano",
-  "loan": true,
-  "from": "Roma",
-  "until": "2027-06-30"
- },
- {
-  "player": "Luiz Felipe",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Jozhua Vertrouwd",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Florian Lejeune",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Pelayo Fernández",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Adrià Pedrosa",
-  "to": "Rayo Vallecano",
-  "loan": true,
-  "from": "Sevilla",
-  "until": "2027-06-30"
- },
- {
-  "player": "Andrei Rațiu",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Iván Balliu",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Pedro Díaz",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Unai López",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Óscar Valentín",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Pathé Ciss",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Gnangoro Bouare",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Randy Nteka",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Rayane Belaid",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Álvaro García",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Jorge de Frutos",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Giorgi Tsitaishvili",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Fran Pérez",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Isi Palazón",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Alemão",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Sergio Camello",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Raúl de Tomás",
-  "to": "Rayo Vallecano"
  },
  {
   "player": "Sergio Herrera",
@@ -6440,11 +6658,15 @@
   "to": "CA Osasuna"
  },
  {
+  "player": "Rockson Yeboah",
+  "to": "CA Osasuna"
+ },
+ {
   "player": "Alejandro Catena",
   "to": "CA Osasuna"
  },
  {
-  "player": "Rockson Yeboah",
+  "player": "Unai Santos",
   "to": "CA Osasuna"
  },
  {
@@ -6575,11 +6797,11 @@
   "to": "Elche"
  },
  {
-  "player": "Gonzalo Villar",
+  "player": "Javi Morcillo",
   "to": "Elche"
  },
  {
-  "player": "Javi Morcillo",
+  "player": "Gonzalo Villar",
   "to": "Elche"
  },
  {
@@ -6591,7 +6813,10 @@
  },
  {
   "player": "Thomas Lemar",
-  "to": "Elche"
+  "to": "Elche",
+  "loan": true,
+  "from": "Atlético Madrid",
+  "until": "2027-06-30"
  },
  {
   "player": "Germán Valera",
@@ -6649,11 +6874,11 @@
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Nicolás Valentini",
+  "player": "Ville Koski",
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Ville Koski",
+  "player": "Nicolás Valentini",
   "to": "Deportivo Alavés"
  },
  {
@@ -6689,19 +6914,19 @@
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Carles Aleñá",
-  "to": "Deportivo Alavés"
- },
- {
   "player": "Ander Guevara",
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Mikel Rodriguez",
+  "player": "Carles Aleñá",
   "to": "Deportivo Alavés"
  },
  {
   "player": "Selu Diallo",
+  "to": "Deportivo Alavés"
+ },
+ {
+  "player": "Mikel Rodriguez",
   "to": "Deportivo Alavés"
  },
  {
@@ -6713,11 +6938,11 @@
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Miguel Rodríguez",
+  "player": "Ángel Pérez",
   "to": "Deportivo Alavés"
  },
  {
-  "player": "Ángel Pérez",
+  "player": "Miguel Rodríguez",
   "to": "Deportivo Alavés"
  },
  {
@@ -6757,6 +6982,13 @@
  },
  {
   "player": "Juan Berrocal",
+  "to": "Málaga",
+  "loan": true,
+  "from": "Getafe",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Ángel Recio",
   "to": "Málaga"
  },
  {
@@ -6765,10 +6997,6 @@
  },
  {
   "player": "Álex Pastor",
-  "to": "Málaga"
- },
- {
-  "player": "Ángel Recio",
   "to": "Málaga"
  },
  {
@@ -6795,6 +7023,13 @@
  },
  {
   "player": "Jens Cajuste",
+  "to": "Málaga",
+  "loan": true,
+  "from": "Napoli",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Izan Merino",
   "to": "Málaga"
  },
  {
@@ -6803,10 +7038,6 @@
   "loan": true,
   "from": "Levante UD",
   "until": "2027-06-30"
- },
- {
-  "player": "Izan Merino",
-  "to": "Málaga"
  },
  {
   "player": "Carlos Dotor",
@@ -6829,15 +7060,15 @@
   "to": "Málaga"
  },
  {
+  "player": "Joaquín Muñoz",
+  "to": "Málaga"
+ },
+ {
   "player": "Juan Cruz",
   "to": "Málaga",
   "loan": true,
   "from": "CD Leganés",
   "until": "2027-06-30"
- },
- {
-  "player": "Joaquín Muñoz",
-  "to": "Málaga"
  },
  {
   "player": "Julen Lobete",
@@ -6992,11 +7223,11 @@
   "to": "Borussia Dortmund"
  },
  {
-  "player": "Emre Can",
+  "player": "Filippo Mane",
   "to": "Borussia Dortmund"
  },
  {
-  "player": "Filippo Mane",
+  "player": "Emre Can",
   "to": "Borussia Dortmund"
  },
  {
@@ -7041,7 +7272,10 @@
  },
  {
   "player": "Ethan Nwaneri",
-  "to": "Borussia Dortmund"
+  "to": "Borussia Dortmund",
+  "loan": true,
+  "from": "Arsenal",
+  "until": "2027-06-30"
  },
  {
   "player": "Konstantinos Karetsas",
@@ -7057,7 +7291,10 @@
  },
  {
   "player": "Mathis Albert",
-  "to": "Borussia Dortmund"
+  "to": "Borussia Dortmund",
+  "loan": true,
+  "from": "Borussia Dortmund II",
+  "until": "2027-06-30"
  },
  {
   "player": "Samuele Inácio",
@@ -7074,125 +7311,6 @@
  {
   "player": "Fábio Silva",
   "to": "Borussia Dortmund"
- },
- {
-  "player": "Maarten Vandevoordt",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Ørjan Nyland",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Leopold Zingerle",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Castello Lukeba",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Maxime Estève",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Abdoul Koné",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Willi Orbán",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Lukas Klostermann",
-  "to": "RB Leipzig"
- },
- {
-  "player": "David Raum",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Max Finkgräfe",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Ridle Baku",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Benjamin Henrichs",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Nicolas Seiwald",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Benno Kaltefleiter",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Neil El Aynaoui",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Assan Ouédraogo",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Rocco Reitz",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Ezechiel Banzuzi",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Christoph Baumgartner",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Brajan Gruda",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Andrija Maksimovic",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Viggo Gebel",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Antonio Nusa",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Tidiam Gomis",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Johan Bakayoko",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Rômulo",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Christopher Nkunku",
-  "to": "RB Leipzig",
-  "loan": true,
-  "from": "AC Milan",
-  "until": "2027-06-30"
- },
- {
-  "player": "Marc Guiu",
-  "to": "RB Leipzig"
- },
- {
-  "player": "Samba Konaté",
-  "to": "RB Leipzig"
  },
  {
   "player": "Mark Flekken",
@@ -7215,11 +7333,11 @@
   "to": "Bayer Leverkusen"
  },
  {
-  "player": "Loïc Badé",
+  "player": "Facundo Medina",
   "to": "Bayer Leverkusen"
  },
  {
-  "player": "Facundo Medina",
+  "player": "Loïc Badé",
   "to": "Bayer Leverkusen"
  },
  {
@@ -7307,6 +7425,128 @@
   "to": "Bayer Leverkusen"
  },
  {
+  "player": "Maarten Vandevoordt",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Ørjan Nyland",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Leopold Zingerle",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Castello Lukeba",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Maxime Estève",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Abdoul Koné",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Willi Orbán",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Lukas Klostermann",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "David Raum",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Max Finkgräfe",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Ridle Baku",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Benjamin Henrichs",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Nicolas Seiwald",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Benno Kaltefleiter",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Neil El Aynaoui",
+  "to": "RB Leipzig",
+  "loan": true,
+  "from": "Roma",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Ezechiel Banzuzi",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Assan Ouédraogo",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Rocco Reitz",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Christoph Baumgartner",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Brajan Gruda",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Andrija Maksimovic",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Viggo Gebel",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Antonio Nusa",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Tidiam Gomis",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Johan Bakayoko",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Rômulo",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Christopher Nkunku",
+  "to": "RB Leipzig",
+  "loan": true,
+  "from": "AC Milan",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Marc Guiu",
+  "to": "RB Leipzig"
+ },
+ {
+  "player": "Samba Konaté",
+  "to": "RB Leipzig"
+ },
+ {
   "player": "Dennis Seimen",
   "to": "VfB Stuttgart"
  },
@@ -7375,15 +7615,15 @@
   "to": "VfB Stuttgart"
  },
  {
+  "player": "Yanik Spalt",
+  "to": "VfB Stuttgart"
+ },
+ {
   "player": "Grischa Prömel",
   "to": "VfB Stuttgart"
  },
  {
   "player": "Ertugrul Yigit",
-  "to": "VfB Stuttgart"
- },
- {
-  "player": "Yanik Spalt",
   "to": "VfB Stuttgart"
  },
  {
@@ -7395,11 +7635,11 @@
   "to": "VfB Stuttgart"
  },
  {
-  "player": "Chris Führich",
+  "player": "Leo Sauer",
   "to": "VfB Stuttgart"
  },
  {
-  "player": "Leo Sauer",
+  "player": "Chris Führich",
   "to": "VfB Stuttgart"
  },
  {
@@ -7415,15 +7655,15 @@
   "to": "VfB Stuttgart"
  },
  {
+  "player": "Dzenan Pejcinovic",
+  "to": "VfB Stuttgart"
+ },
+ {
   "player": "Ermedin Demirovic",
   "to": "VfB Stuttgart"
  },
  {
   "player": "Deniz Undav",
-  "to": "VfB Stuttgart"
- },
- {
-  "player": "Dzenan Pejcinovic",
   "to": "VfB Stuttgart"
  },
  {
@@ -7614,11 +7854,11 @@
   "to": "TSG 1899 Hoffenheim"
  },
  {
-  "player": "Patrick Wimmer",
+  "player": "Adam Daghim",
   "to": "TSG 1899 Hoffenheim"
  },
  {
-  "player": "Adam Daghim",
+  "player": "Patrick Wimmer",
   "to": "TSG 1899 Hoffenheim"
  },
  {
@@ -7674,11 +7914,11 @@
   "to": "SC Freiburg"
  },
  {
-  "player": "Berkay Yılmaz",
+  "player": "Jordy Makengo",
   "to": "SC Freiburg"
  },
  {
-  "player": "Jordy Makengo",
+  "player": "Berkay Yılmaz",
   "to": "SC Freiburg"
  },
  {
@@ -7694,11 +7934,11 @@
   "to": "SC Freiburg"
  },
  {
-  "player": "Patrick Osterhage",
+  "player": "Yannik Engelhardt",
   "to": "SC Freiburg"
  },
  {
-  "player": "Yannik Engelhardt",
+  "player": "Patrick Osterhage",
   "to": "SC Freiburg"
  },
  {
@@ -7771,7 +8011,10 @@
  },
  {
   "player": "Juma Bah",
-  "to": "FC Augsburg"
+  "to": "FC Augsburg",
+  "loan": true,
+  "from": "Manchester City",
+  "until": "2027-06-30"
  },
  {
   "player": "Calvin Brackelmann",
@@ -7818,11 +8061,7 @@
   "to": "FC Augsburg"
  },
  {
-  "player": "Alexis Claude-Maurice",
-  "to": "FC Augsburg"
- },
- {
-  "player": "Mert Kömür",
+  "player": "Anton Kade",
   "to": "FC Augsburg"
  },
  {
@@ -7830,12 +8069,19 @@
   "to": "FC Augsburg"
  },
  {
-  "player": "Anton Kade",
+  "player": "Mert Kömür",
+  "to": "FC Augsburg"
+ },
+ {
+  "player": "Alexis Claude-Maurice",
   "to": "FC Augsburg"
  },
  {
   "player": "Arijon Ibrahimovic",
-  "to": "FC Augsburg"
+  "to": "FC Augsburg",
+  "loan": true,
+  "from": "Bayern Munich",
+  "until": "2027-06-30"
  },
  {
   "player": "Faik Sakar",
@@ -7851,7 +8097,10 @@
  },
  {
   "player": "Michael Gregoritsch",
-  "to": "FC Augsburg"
+  "to": "FC Augsburg",
+  "loan": true,
+  "from": "Bröndby IF",
+  "until": "2027-06-30"
  },
  {
   "player": "Steve Mounié",
@@ -7954,11 +8203,11 @@
   "to": "1.FSV Mainz 05"
  },
  {
-  "player": "Ransford Königsdörffer",
+  "player": "Phillip Tietz",
   "to": "1.FSV Mainz 05"
  },
  {
-  "player": "Phillip Tietz",
+  "player": "Ransford Königsdörffer",
   "to": "1.FSV Mainz 05"
  },
  {
@@ -7974,11 +8223,11 @@
   "to": "1.FC Köln"
  },
  {
-  "player": "Matthias Köbbing",
+  "player": "Martin James",
   "to": "1.FC Köln"
  },
  {
-  "player": "Martin James",
+  "player": "Matthias Köbbing",
   "to": "1.FC Köln"
  },
  {
@@ -7990,11 +8239,11 @@
   "to": "1.FC Köln"
  },
  {
-  "player": "Joël Schmied",
+  "player": "Luka Lochoshvili",
   "to": "1.FC Köln"
  },
  {
-  "player": "Luka Lochoshvili",
+  "player": "Joël Schmied",
   "to": "1.FC Köln"
  },
  {
@@ -8007,7 +8256,10 @@
  },
  {
   "player": "Borna Sosa",
-  "to": "1.FC Köln"
+  "to": "1.FC Köln",
+  "loan": true,
+  "from": "Crystal Palace",
+  "until": "2027-06-30"
  },
  {
   "player": "Sebastian Sebulonsen",
@@ -8018,11 +8270,11 @@
   "to": "1.FC Köln"
  },
  {
-  "player": "Ellyes Skhiri",
+  "player": "Tom Krauß",
   "to": "1.FC Köln"
  },
  {
-  "player": "Tom Krauß",
+  "player": "Ellyes Skhiri",
   "to": "1.FC Köln"
  },
  {
@@ -8109,10 +8361,7 @@
  },
  {
   "player": "Sebastiaan Bornauw",
-  "to": "Hamburger SV",
-  "loan": true,
-  "from": "Leeds United",
-  "until": "2027-06-30"
+  "to": "Hamburger SV"
  },
  {
   "player": "Warmed Omari",
@@ -8128,21 +8377,18 @@
  },
  {
   "player": "Mario Vuskovic",
-  "to": "Hamburger SV",
-  "loan": true,
-  "from": "Disqualification",
-  "until": "2027-06-30"
+  "to": "Hamburger SV"
  },
  {
   "player": "David Møller Wolfe",
   "to": "Hamburger SV"
  },
  {
-  "player": "Miro Muheim",
+  "player": "Louis Lemke",
   "to": "Hamburger SV"
  },
  {
-  "player": "Louis Lemke",
+  "player": "Miro Muheim",
   "to": "Hamburger SV"
  },
  {
@@ -8199,10 +8445,7 @@
  },
  {
   "player": "Patson Daka",
-  "to": "Hamburger SV",
-  "loan": true,
-  "from": "Leicester City",
-  "until": "2027-06-30"
+  "to": "Hamburger SV"
  },
  {
   "player": "Yussuf Poulsen",
@@ -8225,11 +8468,11 @@
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Ko Itakura",
+  "player": "Kevin Diks",
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Kevin Diks",
+  "player": "Ko Itakura",
   "to": "Borussia Mönchengladbach"
  },
  {
@@ -8249,11 +8492,11 @@
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Joe Scally",
+  "player": "Yukhym Konoplya",
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Yukhym Konoplya",
+  "player": "Joe Scally",
   "to": "Borussia Mönchengladbach"
  },
  {
@@ -8280,11 +8523,11 @@
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Florian Neuhaus",
+  "player": "Mathieu Nguefack",
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Mathieu Nguefack",
+  "player": "Florian Neuhaus",
   "to": "Borussia Mönchengladbach"
  },
  {
@@ -8300,16 +8543,19 @@
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Robin Hack",
-  "to": "Borussia Mönchengladbach"
- },
- {
   "player": "Hugo Bolin",
   "to": "Borussia Mönchengladbach"
  },
  {
-  "player": "Nicolas Kühn",
+  "player": "Robin Hack",
   "to": "Borussia Mönchengladbach"
+ },
+ {
+  "player": "Nicolas Kühn",
+  "to": "Borussia Mönchengladbach",
+  "loan": true,
+  "from": "Como 1907",
+  "until": "2027-06-30"
  },
  {
   "player": "Franck Honorat",
@@ -8360,15 +8606,15 @@
   "to": "SV Werder Bremen"
  },
  {
-  "player": "Niklas Stark",
-  "to": "SV Werder Bremen"
- },
- {
   "player": "Mick Schmetgens",
   "to": "SV Werder Bremen"
  },
  {
-  "player": "Felix Agu",
+  "player": "Niklas Stark",
+  "to": "SV Werder Bremen"
+ },
+ {
+  "player": "Olivier Deman",
   "to": "SV Werder Bremen"
  },
  {
@@ -8376,7 +8622,7 @@
   "to": "SV Werder Bremen"
  },
  {
-  "player": "Olivier Deman",
+  "player": "Felix Agu",
   "to": "SV Werder Bremen"
  },
  {
@@ -8393,17 +8639,14 @@
  },
  {
   "player": "Youri Regeer",
-  "to": "SV Werder Bremen",
-  "loan": true,
-  "from": "Ajax Amsterdam",
-  "until": "2027-06-30"
- },
- {
-  "player": "Skelly Alvero",
   "to": "SV Werder Bremen"
  },
  {
   "player": "Dariusz Stalmach",
+  "to": "SV Werder Bremen"
+ },
+ {
+  "player": "Skelly Alvero",
   "to": "SV Werder Bremen"
  },
  {
@@ -8428,10 +8671,7 @@
  },
  {
   "player": "Eren Dinkçi",
-  "to": "SV Werder Bremen",
-  "loan": true,
-  "from": "SC Freiburg",
-  "until": "2027-06-30"
+  "to": "SV Werder Bremen"
  },
  {
   "player": "Justin Njinmah",
@@ -8443,10 +8683,7 @@
  },
  {
   "player": "Niclas Füllkrug",
-  "to": "SV Werder Bremen",
-  "loan": true,
-  "from": "West Ham United",
-  "until": "2027-06-30"
+  "to": "SV Werder Bremen"
  },
  {
   "player": "Keke Topp",
@@ -8537,11 +8774,11 @@
   "to": "1.FC Union Berlin"
  },
  {
-  "player": "Robert Skov",
+  "player": "Kastriot Imeri",
   "to": "1.FC Union Berlin"
  },
  {
-  "player": "Kastriot Imeri",
+  "player": "Robert Skov",
   "to": "1.FC Union Berlin"
  },
  {
@@ -8562,7 +8799,10 @@
  },
  {
   "player": "Emmanuel Latte Lath",
-  "to": "1.FC Union Berlin"
+  "to": "1.FC Union Berlin",
+  "loan": true,
+  "from": "Atlanta United",
+  "until": "2027-06-30"
  },
  {
   "player": "Andrej Ilic",
@@ -8635,15 +8875,15 @@
   "to": "FC Schalke 04"
  },
  {
+  "player": "Satoshi Tanaka",
+  "to": "FC Schalke 04"
+ },
+ {
   "player": "Dejan Ljubicic",
   "to": "FC Schalke 04"
  },
  {
   "player": "Ron Schallenberg",
-  "to": "FC Schalke 04"
- },
- {
-  "player": "Satoshi Tanaka",
   "to": "FC Schalke 04"
  },
  {
@@ -8675,12 +8915,15 @@
   "to": "FC Schalke 04"
  },
  {
-  "player": "Hee-chan Hwang",
+  "player": "Moussa Sylla",
   "to": "FC Schalke 04"
  },
  {
-  "player": "Moussa Sylla",
-  "to": "FC Schalke 04"
+  "player": "Hee-chan Hwang",
+  "to": "FC Schalke 04",
+  "loan": true,
+  "from": "Wolves",
+  "until": "2027-06-30"
  },
  {
   "player": "Junior Adamu",
@@ -8747,11 +8990,11 @@
   "to": "SV 07 Elversberg"
  },
  {
-  "player": "Lukasz Poreba",
+  "player": "Felix Keidel",
   "to": "SV 07 Elversberg"
  },
  {
-  "player": "Felix Keidel",
+  "player": "Lukasz Poreba",
   "to": "SV 07 Elversberg"
  },
  {
@@ -8764,11 +9007,17 @@
  },
  {
   "player": "Francis Onyeka",
-  "to": "SV 07 Elversberg"
+  "to": "SV 07 Elversberg",
+  "loan": true,
+  "from": "Bayer Leverkusen",
+  "until": "2027-06-30"
  },
  {
   "player": "Noah Darvich",
-  "to": "SV 07 Elversberg"
+  "to": "SV 07 Elversberg",
+  "loan": true,
+  "from": "VfB Stuttgart",
+  "until": "2027-06-30"
  },
  {
   "player": "Maurice Krattenmacher",
@@ -8791,15 +9040,15 @@
   "to": "SV 07 Elversberg"
  },
  {
+  "player": "David Mokwa",
+  "to": "SV 07 Elversberg"
+ },
+ {
   "player": "Noel Futkeu",
   "to": "SV 07 Elversberg",
   "loan": true,
   "from": "Eintracht Frankfurt",
   "until": "2027-06-30"
- },
- {
-  "player": "David Mokwa",
-  "to": "SV 07 Elversberg"
  },
  {
   "player": "Luca Pfeiffer",
@@ -8811,7 +9060,10 @@
  },
  {
   "player": "Nahuel Noll",
-  "to": "SC Paderborn 07"
+  "to": "SC Paderborn 07",
+  "loan": true,
+  "from": "TSG 1899 Hoffenheim",
+  "until": "2027-06-30"
  },
  {
   "player": "Markus Schubert",
@@ -8921,7 +9173,10 @@
  },
  {
   "player": "Rayan Philippe",
-  "to": "SC Paderborn 07"
+  "to": "SC Paderborn 07",
+  "loan": true,
+  "from": "Hamburger SV",
+  "until": "2027-06-30"
  },
  {
   "player": "Sven Michel",
@@ -9069,7 +9324,10 @@
  },
  {
   "player": "Samuel Nibombe",
-  "to": "AS Monaco"
+  "to": "AS Monaco",
+  "loan": true,
+  "from": "AS Monaco U21",
+  "until": "2027-06-30"
  },
  {
   "player": "Nazinho",
@@ -9117,7 +9375,10 @@
  },
  {
   "player": "Mathys Detourbet",
-  "to": "AS Monaco"
+  "to": "AS Monaco",
+  "loan": true,
+  "from": "Manchester City",
+  "until": "2027-06-30"
  },
  {
   "player": "Ansu Fati",
@@ -9145,10 +9406,7 @@
  },
  {
   "player": "Filip Jørgensen",
-  "to": "RC Strasbourg Alsace",
-  "loan": true,
-  "from": "Chelsea",
-  "until": "2027-06-30"
+  "to": "RC Strasbourg Alsace"
  },
  {
   "player": "Milosz Piekutowski",
@@ -9312,10 +9570,7 @@
  },
  {
   "player": "Zachary Athekame",
-  "to": "Olympique Lyon",
-  "loan": true,
-  "from": "AC Milan",
-  "until": "2027-06-30"
+  "to": "Olympique Lyon"
  },
  {
   "player": "Steeve Kango",
@@ -9375,10 +9630,7 @@
  },
  {
   "player": "Loïs Openda",
-  "to": "Olympique Lyon",
-  "loan": true,
-  "from": "Juventus",
-  "until": "2027-06-30"
+  "to": "Olympique Lyon"
  },
  {
   "player": "Alejandro Gomes Rodríguez",
@@ -9398,7 +9650,10 @@
  },
  {
   "player": "Charlie Cresswell",
-  "to": "Stade Rennais"
+  "to": "Stade Rennais",
+  "loan": true,
+  "from": "FC Toulouse",
+  "until": "2027-06-30"
  },
  {
   "player": "Abdelhamid Ait Boudlal",
@@ -9486,7 +9741,10 @@
  },
  {
   "player": "Boulaye Dia",
-  "to": "Stade Rennais"
+  "to": "Stade Rennais",
+  "loan": true,
+  "from": "SS Lazio",
+  "until": "2027-06-30"
  },
  {
   "player": "Berke Özer",
@@ -9621,7 +9879,10 @@
  },
  {
   "player": "Jean-Clair Todibo",
-  "to": "RC Lens"
+  "to": "RC Lens",
+  "loan": true,
+  "from": "West Ham United",
+  "until": "2027-06-30"
  },
  {
   "player": "Kyllian Antonio",
@@ -9823,11 +10084,17 @@
  },
  {
   "player": "Théo Vermot",
-  "to": "Olympique Marseille"
+  "to": "Olympique Marseille",
+  "loan": true,
+  "from": "Olympique de Marseille B",
+  "until": "2027-06-30"
  },
  {
   "player": "Jelle Van Neck",
-  "to": "Olympique Marseille"
+  "to": "Olympique Marseille",
+  "loan": true,
+  "from": "Olympique de Marseille B",
+  "until": "2027-06-30"
  },
  {
   "player": "Nayef Aguerd",
@@ -9930,10 +10197,6 @@
   "to": "OGC Nice"
  },
  {
-  "player": "Xavier Mandza",
-  "to": "OGC Nice"
- },
- {
   "player": "Alidu Seidu",
   "to": "OGC Nice",
   "loan": true,
@@ -9946,7 +10209,10 @@
  },
  {
   "player": "Niels Nkounkou",
-  "to": "OGC Nice"
+  "to": "OGC Nice",
+  "loan": true,
+  "from": "Eintracht Frankfurt",
+  "until": "2027-06-30"
  },
  {
   "player": "Ali Abdi",
@@ -9958,6 +10224,10 @@
  },
  {
   "player": "Hamza Koutoune",
+  "to": "OGC Nice"
+ },
+ {
+  "player": "Xavier Mandza",
   "to": "OGC Nice"
  },
  {
@@ -9980,10 +10250,6 @@
   "until": "2027-06-30"
  },
  {
-  "player": "Nassim Laarej",
-  "to": "OGC Nice"
- },
- {
   "player": "Hicham Boudaoui",
   "to": "OGC Nice"
  },
@@ -9997,6 +10263,10 @@
  },
  {
   "player": "Issiaga Camara",
+  "to": "OGC Nice"
+ },
+ {
+  "player": "Nassim Laarej",
   "to": "OGC Nice"
  },
  {
@@ -10086,7 +10356,10 @@
  },
  {
   "player": "Mathis Amougou",
-  "to": "FC Toulouse"
+  "to": "FC Toulouse",
+  "loan": true,
+  "from": "RC Strasbourg Alsace",
+  "until": "2027-06-30"
  },
  {
   "player": "Thomas Jørgensen",
@@ -10227,11 +10500,17 @@
  },
  {
   "player": "Souleymane Faye",
-  "to": "FC Lorient"
+  "to": "FC Lorient",
+  "loan": true,
+  "from": "Sporting CP",
+  "until": "2027-06-30"
  },
  {
   "player": "Ibrahima Baldé",
-  "to": "FC Lorient"
+  "to": "FC Lorient",
+  "loan": true,
+  "from": "Rodez AF",
+  "until": "2027-06-30"
  },
  {
   "player": "Mohamed Bamba",
@@ -10315,10 +10594,7 @@
  },
  {
   "player": "Pierre Ekwah",
-  "to": "AJ Auxerre",
-  "loan": true,
-  "from": "AS Saint-Étienne",
-  "until": "2027-06-30"
+  "to": "AJ Auxerre"
  },
  {
   "player": "Assane Dioussé",
@@ -10334,10 +10610,7 @@
  },
  {
   "player": "Naouirou Ahamada",
-  "to": "AJ Auxerre",
-  "loan": true,
-  "from": "Crystal Palace",
-  "until": "2027-06-30"
+  "to": "AJ Auxerre"
  },
  {
   "player": "Tidiane Devernois",
@@ -10365,10 +10638,7 @@
  },
  {
   "player": "Rémy Labeau Lascary",
-  "to": "AJ Auxerre",
-  "loan": true,
-  "from": "RC Lens",
-  "until": "2027-06-30"
+  "to": "AJ Auxerre"
  },
  {
   "player": "Ryan Rodin",
@@ -10462,7 +10732,10 @@
  },
  {
   "player": "Noah Edjouma",
-  "to": "Stade Brestois 29"
+  "to": "Stade Brestois 29",
+  "loan": true,
+  "from": "LOSC Lille",
+  "until": "2027-06-30"
  },
  {
   "player": "Djylian N'Guessan",
@@ -10501,6 +10774,10 @@
  },
  {
   "player": "Jordan Lefort",
+  "to": "Angers SCO"
+ },
+ {
+  "player": "Maël Gernigon",
   "to": "Angers SCO"
  },
  {
@@ -10561,10 +10838,7 @@
  },
  {
   "player": "Amine El Ouazzani",
-  "to": "Angers SCO",
-  "loan": true,
-  "from": "SC Braga",
-  "until": "2027-06-30"
+  "to": "Angers SCO"
  },
  {
   "player": "Usman Simbakoli",
@@ -10798,7 +11072,10 @@
  },
  {
   "player": "Timothé Nkada",
-  "to": "ESTAC Troyes"
+  "to": "ESTAC Troyes",
+  "loan": true,
+  "from": "Standard Liège",
+  "until": "2027-06-30"
  },
  {
   "player": "Renaud Ripart",
