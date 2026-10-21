@@ -68,7 +68,7 @@
   "to": "Inter"
  },
  {
-  "player": "Piotr Zielinski",
+  "player": "Piotr Zieliński",
   "to": "Inter"
  },
  {
@@ -1558,6 +1558,13 @@
   "to": "Genoa CFC"
  },
  {
+  "player": "Hamed Traoré",
+  "to": "Genoa CFC",
+  "loan": true,
+  "from": "Olympique Marseille",
+  "until": "2027-06-30"
+ },
+ {
   "player": "Amorim",
   "to": "Genoa CFC"
  },
@@ -1580,13 +1587,6 @@
  {
   "player": "Tommaso Baldanzi",
   "to": "Genoa CFC"
- },
- {
-  "player": "Hamed Traoré",
-  "to": "Genoa CFC",
-  "loan": true,
-  "from": "Olympique Marseille",
-  "until": "2027-06-30"
  },
  {
   "player": "Stephan El Shaarawy",
@@ -2041,10 +2041,6 @@
   "to": "Venezia"
  },
  {
-  "player": "Filippo Neri",
-  "to": "Venezia"
- },
- {
   "player": "Matteo Grandi",
   "to": "Venezia"
  },
@@ -2209,10 +2205,6 @@
   "to": "Frosinone Calcio"
  },
  {
-  "player": "Eldin Lolic",
-  "to": "Frosinone Calcio"
- },
- {
   "player": "Gabriele Calvani",
   "to": "Frosinone Calcio"
  },
@@ -2294,15 +2286,15 @@
   "to": "Frosinone Calcio"
  },
  {
-  "player": "Alessio Zerbin",
-  "to": "Frosinone Calcio"
- },
- {
   "player": "Romano Schmid",
   "to": "Frosinone Calcio"
  },
  {
   "player": "Giorgi Kvernadze",
+  "to": "Frosinone Calcio"
+ },
+ {
+  "player": "Alessio Zerbin",
   "to": "Frosinone Calcio"
  },
  {
@@ -2939,7 +2931,7 @@
   "to": "Liverpool"
  },
  {
-  "player": "Vitezslav Jaros",
+  "player": "Vítězslav Jaroš",
   "to": "Liverpool"
  },
  {
@@ -2962,7 +2954,7 @@
   "to": "Liverpool"
  },
  {
-  "player": "Ronald Araujo",
+  "player": "Ronald Araújo",
   "to": "Liverpool",
   "loan": true,
   "from": "FC Barcelona",
@@ -2983,6 +2975,13 @@
  {
   "player": "Konstantinos Tsimikas",
   "to": "Liverpool"
+ },
+ {
+  "player": "Luke Chambers",
+  "to": "Liverpool",
+  "loan": true,
+  "from": "Liverpool FC U21",
+  "until": "2027-06-30"
  },
  {
   "player": "Jeremie Frimpong",
@@ -3050,6 +3049,10 @@
  },
  {
   "player": "Lewis Koumas",
+  "to": "Liverpool"
+ },
+ {
+  "player": "Jayden Danns",
   "to": "Liverpool"
  },
  {
@@ -3828,11 +3831,11 @@
   "to": "AFC Bournemouth"
  },
  {
-  "player": "Justin Kluivert",
+  "player": "Marcus Tavernier",
   "to": "AFC Bournemouth"
  },
  {
-  "player": "Marcus Tavernier",
+  "player": "Justin Kluivert",
   "to": "AFC Bournemouth"
  },
  {
@@ -4108,10 +4111,7 @@
  },
  {
   "player": "Kevin Danso",
-  "to": "Sunderland AFC",
-  "loan": true,
-  "from": "Tottenham",
-  "until": "2027-06-30"
+  "to": "Sunderland AFC"
  },
  {
   "player": "Omar Alderete",
@@ -4183,6 +4183,10 @@
  },
  {
   "player": "Romaine Mundle",
+  "to": "Sunderland AFC"
+ },
+ {
+  "player": "Timur Tuterov",
   "to": "Sunderland AFC"
  },
  {
@@ -4994,7 +4998,7 @@
   "to": "FC Barcelona"
  },
  {
-  "player": "Wojciech Szczesny",
+  "player": "Wojciech Szczęsny",
   "to": "FC Barcelona"
  },
  {
@@ -5126,11 +5130,11 @@
   "to": "Atlético Madrid"
  },
  {
-  "player": "Dani Martinez",
+  "player": "Alejandro Grimaldo",
   "to": "Atlético Madrid"
  },
  {
-  "player": "Alejandro Grimaldo",
+  "player": "Dani Martínez",
   "to": "Atlético Madrid"
  },
  {
@@ -5203,10 +5207,7 @@
  },
  {
   "player": "Rubén Gómez",
-  "to": "Villarreal",
-  "loan": true,
-  "from": "Villarreal CF B",
-  "until": "2027-06-30"
+  "to": "Villarreal"
  },
  {
   "player": "Renato Veiga",
@@ -5262,6 +5263,10 @@
  },
  {
   "player": "Alberto Moleiro",
+  "to": "Villarreal"
+ },
+ {
+  "player": "Nízar El Jmili",
   "to": "Villarreal"
  },
  {
@@ -5612,10 +5617,7 @@
  },
  {
   "player": "Altay Bayındır",
-  "to": "Celta de Vigo",
-  "loan": true,
-  "from": "Manchester Utd",
-  "until": "2027-06-30"
+  "to": "Celta de Vigo"
  },
  {
   "player": "Iván Villar",
@@ -5635,10 +5637,7 @@
  },
  {
   "player": "Abdoulaye Faye",
-  "to": "Celta de Vigo",
-  "loan": true,
-  "from": "Bayer Leverkusen",
-  "until": "2027-06-30"
+  "to": "Celta de Vigo"
  },
  {
   "player": "Sebastián Cáceres",
@@ -5674,6 +5673,10 @@
  },
  {
   "player": "Aleix Febas",
+  "to": "Celta de Vigo"
+ },
+ {
+  "player": "Hugo Burcio",
   "to": "Celta de Vigo"
  },
  {
@@ -6368,6 +6371,10 @@
   "to": "Rayo Vallecano"
  },
  {
+  "player": "Isi Palazón",
+  "to": "Rayo Vallecano"
+ },
+ {
   "player": "Randy Nteka",
   "to": "Rayo Vallecano"
  },
@@ -6389,10 +6396,6 @@
  },
  {
   "player": "Fran Pérez",
-  "to": "Rayo Vallecano"
- },
- {
-  "player": "Isi Palazón",
   "to": "Rayo Vallecano"
  },
  {
@@ -6461,6 +6464,13 @@
   "to": "Getafe",
   "loan": true,
   "from": "Aston Villa",
+  "until": "2027-06-30"
+ },
+ {
+  "player": "Daniel Carvajal",
+  "to": "Getafe",
+  "loan": true,
+  "from": "Without Club",
   "until": "2027-06-30"
  },
  {
@@ -10084,17 +10094,11 @@
  },
  {
   "player": "Théo Vermot",
-  "to": "Olympique Marseille",
-  "loan": true,
-  "from": "Olympique de Marseille B",
-  "until": "2027-06-30"
+  "to": "Olympique Marseille"
  },
  {
   "player": "Jelle Van Neck",
-  "to": "Olympique Marseille",
-  "loan": true,
-  "from": "Olympique de Marseille B",
-  "until": "2027-06-30"
+  "to": "Olympique Marseille"
  },
  {
   "player": "Nayef Aguerd",
@@ -10121,7 +10125,15 @@
   "to": "Olympique Marseille"
  },
  {
+  "player": "Alexi Koum",
+  "to": "Olympique Marseille"
+ },
+ {
   "player": "Timothy Weah",
+  "to": "Olympique Marseille"
+ },
+ {
+  "player": "Kelyann Bezahaf",
   "to": "Olympique Marseille"
  },
  {
@@ -10134,6 +10146,10 @@
  },
  {
   "player": "Geoffrey Kondogbia",
+  "to": "Olympique Marseille"
+ },
+ {
+  "player": "Nouhoum Kamissoko",
   "to": "Olympique Marseille"
  },
  {
@@ -10822,7 +10838,10 @@
  },
  {
   "player": "Anthony Bermont",
-  "to": "Angers SCO"
+  "to": "Angers SCO",
+  "loan": true,
+  "from": "RC Lens",
+  "until": "2027-06-30"
  },
  {
   "player": "Harouna Djibirin",
@@ -10838,7 +10857,10 @@
  },
  {
   "player": "Amine El Ouazzani",
-  "to": "Angers SCO"
+  "to": "Angers SCO",
+  "loan": true,
+  "from": "SC Braga",
+  "until": "2027-06-30"
  },
  {
   "player": "Usman Simbakoli",
@@ -10903,6 +10925,13 @@
  {
   "player": "Junior Mwanga",
   "to": "Le Havre"
+ },
+ {
+  "player": "Mathéo Bodmer",
+  "to": "Le Havre",
+  "loan": true,
+  "from": "AC Le Havre B",
+  "until": "2027-06-30"
  },
  {
   "player": "Daren Mosengo",
