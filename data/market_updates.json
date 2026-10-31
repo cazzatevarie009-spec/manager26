@@ -161,10 +161,6 @@
   "to": "Juventus"
  },
  {
-  "player": "Teun Koopmeiners",
-  "to": "Juventus"
- },
- {
   "player": "Khéphren Thuram",
   "to": "Juventus"
  },
@@ -181,6 +177,10 @@
  },
  {
   "player": "Douglas Luiz",
+  "to": "Juventus"
+ },
+ {
+  "player": "Teun Koopmeiners",
   "to": "Juventus"
  },
  {
@@ -527,10 +527,7 @@
  },
  {
   "player": "Emanuele Lulli",
-  "to": "Roma",
-  "loan": true,
-  "from": "Roma U20",
-  "until": "2027-06-30"
+  "to": "Roma"
  },
  {
   "player": "Bryan Cristante",
@@ -4111,7 +4108,10 @@
  },
  {
   "player": "Kevin Danso",
-  "to": "Sunderland AFC"
+  "to": "Sunderland AFC",
+  "loan": true,
+  "from": "Tottenham",
+  "until": "2027-06-30"
  },
  {
   "player": "Omar Alderete",
@@ -4403,7 +4403,10 @@
  },
  {
   "player": "Braiden Graham",
-  "to": "Everton"
+  "to": "Everton",
+  "loan": true,
+  "from": "Everton FC U21",
+  "until": "2027-06-30"
  },
  {
   "player": "Bernd Leno",
@@ -5617,7 +5620,10 @@
  },
  {
   "player": "Altay Bayındır",
-  "to": "Celta de Vigo"
+  "to": "Celta de Vigo",
+  "loan": true,
+  "from": "Manchester Utd",
+  "until": "2027-06-30"
  },
  {
   "player": "Iván Villar",
@@ -5637,7 +5643,10 @@
  },
  {
   "player": "Abdoulaye Faye",
-  "to": "Celta de Vigo"
+  "to": "Celta de Vigo",
+  "loan": true,
+  "from": "Bayer Leverkusen",
+  "until": "2027-06-30"
  },
  {
   "player": "Sebastián Cáceres",
@@ -7161,6 +7170,10 @@
   "to": "Bayern Munich"
  },
  {
+  "player": "David Santos Daiber",
+  "to": "Bayern Munich"
+ },
+ {
   "player": "Tom Bischof",
   "to": "Bayern Munich"
  },
@@ -7233,7 +7246,7 @@
   "to": "Borussia Dortmund"
  },
  {
-  "player": "Filippo Mane",
+  "player": "Filippo Mané",
   "to": "Borussia Dortmund"
  },
  {
@@ -8047,10 +8060,6 @@
   "to": "FC Augsburg"
  },
  {
-  "player": "Robin Fellhauer",
-  "to": "FC Augsburg"
- },
- {
   "player": "Yannik Keitel",
   "to": "FC Augsburg"
  },
@@ -8063,6 +8072,10 @@
   "to": "FC Augsburg"
  },
  {
+  "player": "Fabian Rieder",
+  "to": "FC Augsburg"
+ },
+ {
   "player": "Han-Noah Massengo",
   "to": "FC Augsburg"
  },
@@ -8071,11 +8084,11 @@
   "to": "FC Augsburg"
  },
  {
-  "player": "Anton Kade",
+  "player": "Robin Fellhauer",
   "to": "FC Augsburg"
  },
  {
-  "player": "Fabian Rieder",
+  "player": "Anton Kade",
   "to": "FC Augsburg"
  },
  {
@@ -8386,6 +8399,10 @@
   "to": "Hamburger SV"
  },
  {
+  "player": "Jason Bissi-Mouelle",
+  "to": "Hamburger SV"
+ },
+ {
   "player": "Mario Vuskovic",
   "to": "Hamburger SV"
  },
@@ -8640,10 +8657,6 @@
   "to": "SV Werder Bremen"
  },
  {
-  "player": "Mitchell Weiser",
-  "to": "SV Werder Bremen"
- },
- {
   "player": "Senne Lynen",
   "to": "SV Werder Bremen"
  },
@@ -8665,6 +8678,10 @@
  },
  {
   "player": "Ludovit Reis",
+  "to": "SV Werder Bremen"
+ },
+ {
+  "player": "Mitchell Weiser",
   "to": "SV Werder Bremen"
  },
  {
@@ -9475,6 +9492,10 @@
   "to": "RC Strasbourg Alsace"
  },
  {
+  "player": "Tyrese Noubissie",
+  "to": "RC Strasbourg Alsace"
+ },
+ {
   "player": "Giovanni Reyna",
   "to": "RC Strasbourg Alsace"
  },
@@ -9781,10 +9802,6 @@
   "to": "LOSC Lille"
  },
  {
-  "player": "Maxima Goffi",
-  "to": "LOSC Lille"
- },
- {
   "player": "Romain Perraud",
   "to": "LOSC Lille"
  },
@@ -9798,6 +9815,10 @@
  },
  {
   "player": "Loun Srdanovic",
+  "to": "LOSC Lille"
+ },
+ {
+  "player": "Maxima Goffi",
   "to": "LOSC Lille"
  },
  {
@@ -10021,11 +10042,11 @@
   "to": "Paris"
  },
  {
-  "player": "Thibault De Smet",
+  "player": "Emmanuel Mbemba",
   "to": "Paris"
  },
  {
-  "player": "Emmanuel Mbemba",
+  "player": "Thibault De Smet",
   "to": "Paris"
  },
  {
@@ -10649,6 +10670,10 @@
   "to": "AJ Auxerre"
  },
  {
+  "player": "Mamoudou Cissokho",
+  "to": "AJ Auxerre"
+ },
+ {
   "player": "Cameron Archer",
   "to": "AJ Auxerre"
  },
@@ -10766,6 +10791,10 @@
  },
  {
   "player": "Ludovic Ajorque",
+  "to": "Stade Brestois 29"
+ },
+ {
+  "player": "Mathis Lainé",
   "to": "Stade Brestois 29"
  },
  {
@@ -10898,6 +10927,10 @@
   "loan": true,
   "from": "Panathinaikos",
   "until": "2027-06-30"
+ },
+ {
+  "player": "Lamine N'Diaye",
+  "to": "Le Havre"
  },
  {
   "player": "Vincent Sasso",
@@ -11107,6 +11140,10 @@
   "until": "2027-06-30"
  },
  {
+  "player": "Christ Batola",
+  "to": "ESTAC Troyes"
+ },
+ {
   "player": "Renaud Ripart",
   "to": "ESTAC Troyes"
  },
@@ -11116,10 +11153,6 @@
  },
  {
   "player": "Ibrahim Traoré",
-  "to": "ESTAC Troyes"
- },
- {
-  "player": "Christ Batola",
   "to": "ESTAC Troyes"
  },
  {
