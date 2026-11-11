@@ -1835,13 +1835,6 @@
   "until": "2027-06-30"
  },
  {
-  "player": "El Bilal Touré",
-  "to": "Parma Calcio 1913",
-  "loan": true,
-  "from": "Atalanta",
-  "until": "2027-06-30"
- },
- {
   "player": "Ousmane Diallo",
   "to": "Parma Calcio 1913"
  },
@@ -1852,6 +1845,13 @@
  {
   "player": "Simone Lontani",
   "to": "Parma Calcio 1913"
+ },
+ {
+  "player": "El Bilal Touré",
+  "to": "Parma Calcio 1913",
+  "loan": true,
+  "from": "Atalanta",
+  "until": "2027-06-30"
  },
  {
   "player": "David Romero",
@@ -2884,11 +2884,11 @@
   "to": "Chelsea"
  },
  {
-  "player": "Morgan Rogers",
+  "player": "Cole Palmer",
   "to": "Chelsea"
  },
  {
-  "player": "Cole Palmer",
+  "player": "Morgan Rogers",
   "to": "Chelsea"
  },
  {
@@ -4047,6 +4047,10 @@
   "to": "Nottingham Forest"
  },
  {
+  "player": "James McAtee",
+  "to": "Nottingham Forest"
+ },
+ {
   "player": "Xaver Schlager",
   "to": "Nottingham Forest"
  },
@@ -4060,10 +4064,6 @@
  },
  {
   "player": "Morgan Gibbs-White",
-  "to": "Nottingham Forest"
- },
- {
-  "player": "James McAtee",
   "to": "Nottingham Forest"
  },
  {
@@ -5041,11 +5041,11 @@
   "to": "FC Barcelona"
  },
  {
-  "player": "Pedri",
+  "player": "Marc Bernal",
   "to": "FC Barcelona"
  },
  {
-  "player": "Marc Bernal",
+  "player": "Pedri",
   "to": "FC Barcelona"
  },
  {
@@ -5189,7 +5189,7 @@
   "to": "Atlético Madrid"
  },
  {
-  "player": "Julián Alvarez",
+  "player": "Julián Álvarez",
   "to": "Atlético Madrid"
  },
  {
@@ -5356,10 +5356,6 @@
   "to": "Real Sociedad"
  },
  {
-  "player": "Luka Sucic",
-  "to": "Real Sociedad"
- },
- {
   "player": "Beñat Turrientes",
   "to": "Real Sociedad"
  },
@@ -5369,6 +5365,10 @@
  },
  {
   "player": "Yangel Herrera",
+  "to": "Real Sociedad"
+ },
+ {
+  "player": "Luka Sucic",
   "to": "Real Sociedad"
  },
  {
@@ -5388,7 +5388,7 @@
   "to": "Real Sociedad"
  },
  {
-  "player": "Alex Marchal",
+  "player": "Álex Marchal",
   "to": "Real Sociedad"
  },
  {
@@ -5907,7 +5907,7 @@
   "to": "Valencia"
  },
  {
-  "player": "Aaron Mayol",
+  "player": "Aarón Mayol",
   "to": "Valencia"
  },
  {
@@ -5954,7 +5954,7 @@
   "to": "Valencia"
  },
  {
-  "player": "Marko Dmitrovic",
+  "player": "Marko Dmitrović",
   "to": "RCD Espanyol Barcelona"
  },
  {
@@ -7202,6 +7202,10 @@
   "to": "Bayern Munich"
  },
  {
+  "player": "Tim Binder",
+  "to": "Bayern Munich"
+ },
+ {
   "player": "Serge Gnabry",
   "to": "Bayern Munich"
  },
@@ -7691,10 +7695,7 @@
  },
  {
   "player": "Noah Atubolu",
-  "to": "Eintracht Frankfurt",
-  "loan": true,
-  "from": "SC Freiburg",
-  "until": "2027-06-30"
+  "to": "Eintracht Frankfurt"
  },
  {
   "player": "Kauã Santos",
@@ -7758,6 +7759,10 @@
  },
  {
   "player": "Farès Chaïbi",
+  "to": "Eintracht Frankfurt"
+ },
+ {
+  "player": "Niko Ilicevic",
   "to": "Eintracht Frankfurt"
  },
  {
@@ -8305,7 +8310,7 @@
   "to": "1.FC Köln"
  },
  {
-  "player": "Ísak Jóhannesson",
+  "player": "Isak Jóhannesson",
   "to": "1.FC Köln"
  },
  {
@@ -8922,15 +8927,15 @@
   "to": "FC Schalke 04"
  },
  {
+  "player": "Finn Porath",
+  "to": "FC Schalke 04"
+ },
+ {
   "player": "Janik Bachmann",
   "to": "FC Schalke 04"
  },
  {
   "player": "Junior Dina Ebimbe",
-  "to": "FC Schalke 04"
- },
- {
-  "player": "Finn Porath",
   "to": "FC Schalke 04"
  },
  {
@@ -9268,6 +9273,13 @@
  {
   "player": "Achraf Hakimi",
   "to": "Paris SG"
+ },
+ {
+  "player": "David Boly",
+  "to": "Paris SG",
+  "loan": true,
+  "from": "Paris Saint-Germain Espoirs",
+  "until": "2027-06-30"
  },
  {
   "player": "Vitinha",
@@ -9628,15 +9640,15 @@
   "to": "Olympique Lyon"
  },
  {
+  "player": "Noah Nartey",
+  "to": "Olympique Lyon"
+ },
+ {
   "player": "Corentin Tolisso",
   "to": "Olympique Lyon"
  },
  {
   "player": "Pavel Sulc",
-  "to": "Olympique Lyon"
- },
- {
-  "player": "Noah Nartey",
   "to": "Olympique Lyon"
  },
  {
@@ -10606,6 +10618,10 @@
   "to": "AJ Auxerre"
  },
  {
+  "player": "Mohamed Coulibaly",
+  "to": "AJ Auxerre"
+ },
+ {
   "player": "Fredrik Oppegård",
   "to": "AJ Auxerre"
  },
@@ -10639,6 +10655,10 @@
  },
  {
   "player": "Lamfia Dioubaté",
+  "to": "AJ Auxerre"
+ },
+ {
+  "player": "Yvan Zaddy",
   "to": "AJ Auxerre"
  },
  {
